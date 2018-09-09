@@ -688,6 +688,10 @@ table {
   * @import "components/forms";
   */
 
+.myclass {
+  display: none;
+}
+
 /**
   * This injects all of Tailwind's utility classes, generated based on your
   * config file.
@@ -841,254 +845,6 @@ table {
 }
 
 .bg-blue-lightest {
-  background-color: #eff8ff;
-}
-
-.hover\:bg-transparent:hover {
-  background-color: transparent;
-}
-
-.hover\:bg-black:hover {
-  background-color: #22292f;
-}
-
-.hover\:bg-grey-darkest:hover {
-  background-color: #3d4852;
-}
-
-.hover\:bg-grey-darker:hover {
-  background-color: #606f7b;
-}
-
-.hover\:bg-grey-dark:hover {
-  background-color: #8795a1;
-}
-
-.hover\:bg-grey:hover {
-  background-color: #b8c2cc;
-}
-
-.hover\:bg-grey-light:hover {
-  background-color: #dae1e7;
-}
-
-.hover\:bg-grey-lighter:hover {
-  background-color: #f1f5f8;
-}
-
-.hover\:bg-grey-lightest:hover {
-  background-color: #f8fafc;
-}
-
-.hover\:bg-white:hover {
-  background-color: #fff;
-}
-
-.hover\:bg-green-darkest:hover {
-  background-color: #0f2f21;
-}
-
-.hover\:bg-green-darker:hover {
-  background-color: #1a4731;
-}
-
-.hover\:bg-green-dark:hover {
-  background-color: #1f9d55;
-}
-
-.hover\:bg-green:hover {
-  background-color: #38c172;
-}
-
-.hover\:bg-green-light:hover {
-  background-color: #51d88a;
-}
-
-.hover\:bg-green-lighter:hover {
-  background-color: #a2f5bf;
-}
-
-.hover\:bg-green-lightest:hover {
-  background-color: #e3fcec;
-}
-
-.hover\:bg-teal-darkest:hover {
-  background-color: #0d3331;
-}
-
-.hover\:bg-teal-darker:hover {
-  background-color: #20504f;
-}
-
-.hover\:bg-teal-dark:hover {
-  background-color: #38a89d;
-}
-
-.hover\:bg-teal:hover {
-  background-color: #4dc0b5;
-}
-
-.hover\:bg-teal-light:hover {
-  background-color: #64d5ca;
-}
-
-.hover\:bg-teal-lighter:hover {
-  background-color: #a0f0ed;
-}
-
-.hover\:bg-teal-lightest:hover {
-  background-color: #e8fffe;
-}
-
-.hover\:bg-blue-darkest:hover {
-  background-color: #12283a;
-}
-
-.hover\:bg-blue-darker:hover {
-  background-color: #1c3d5a;
-}
-
-.hover\:bg-blue-dark:hover {
-  background-color: #2779bd;
-}
-
-.hover\:bg-blue:hover {
-  background-color: #3490dc;
-}
-
-.hover\:bg-blue-light:hover {
-  background-color: #6cb2eb;
-}
-
-.hover\:bg-blue-lighter:hover {
-  background-color: #bcdefa;
-}
-
-.hover\:bg-blue-lightest:hover {
-  background-color: #eff8ff;
-}
-
-.focus\:bg-transparent:focus {
-  background-color: transparent;
-}
-
-.focus\:bg-black:focus {
-  background-color: #22292f;
-}
-
-.focus\:bg-grey-darkest:focus {
-  background-color: #3d4852;
-}
-
-.focus\:bg-grey-darker:focus {
-  background-color: #606f7b;
-}
-
-.focus\:bg-grey-dark:focus {
-  background-color: #8795a1;
-}
-
-.focus\:bg-grey:focus {
-  background-color: #b8c2cc;
-}
-
-.focus\:bg-grey-light:focus {
-  background-color: #dae1e7;
-}
-
-.focus\:bg-grey-lighter:focus {
-  background-color: #f1f5f8;
-}
-
-.focus\:bg-grey-lightest:focus {
-  background-color: #f8fafc;
-}
-
-.focus\:bg-white:focus {
-  background-color: #fff;
-}
-
-.focus\:bg-green-darkest:focus {
-  background-color: #0f2f21;
-}
-
-.focus\:bg-green-darker:focus {
-  background-color: #1a4731;
-}
-
-.focus\:bg-green-dark:focus {
-  background-color: #1f9d55;
-}
-
-.focus\:bg-green:focus {
-  background-color: #38c172;
-}
-
-.focus\:bg-green-light:focus {
-  background-color: #51d88a;
-}
-
-.focus\:bg-green-lighter:focus {
-  background-color: #a2f5bf;
-}
-
-.focus\:bg-green-lightest:focus {
-  background-color: #e3fcec;
-}
-
-.focus\:bg-teal-darkest:focus {
-  background-color: #0d3331;
-}
-
-.focus\:bg-teal-darker:focus {
-  background-color: #20504f;
-}
-
-.focus\:bg-teal-dark:focus {
-  background-color: #38a89d;
-}
-
-.focus\:bg-teal:focus {
-  background-color: #4dc0b5;
-}
-
-.focus\:bg-teal-light:focus {
-  background-color: #64d5ca;
-}
-
-.focus\:bg-teal-lighter:focus {
-  background-color: #a0f0ed;
-}
-
-.focus\:bg-teal-lightest:focus {
-  background-color: #e8fffe;
-}
-
-.focus\:bg-blue-darkest:focus {
-  background-color: #12283a;
-}
-
-.focus\:bg-blue-darker:focus {
-  background-color: #1c3d5a;
-}
-
-.focus\:bg-blue-dark:focus {
-  background-color: #2779bd;
-}
-
-.focus\:bg-blue:focus {
-  background-color: #3490dc;
-}
-
-.focus\:bg-blue-light:focus {
-  background-color: #6cb2eb;
-}
-
-.focus\:bg-blue-lighter:focus {
-  background-color: #bcdefa;
-}
-
-.focus\:bg-blue-lightest:focus {
   background-color: #eff8ff;
 }
 
@@ -1285,254 +1041,6 @@ table {
 }
 
 .border-blue-lightest {
-  border-color: #eff8ff;
-}
-
-.hover\:border-transparent:hover {
-  border-color: transparent;
-}
-
-.hover\:border-black:hover {
-  border-color: #22292f;
-}
-
-.hover\:border-grey-darkest:hover {
-  border-color: #3d4852;
-}
-
-.hover\:border-grey-darker:hover {
-  border-color: #606f7b;
-}
-
-.hover\:border-grey-dark:hover {
-  border-color: #8795a1;
-}
-
-.hover\:border-grey:hover {
-  border-color: #b8c2cc;
-}
-
-.hover\:border-grey-light:hover {
-  border-color: #dae1e7;
-}
-
-.hover\:border-grey-lighter:hover {
-  border-color: #f1f5f8;
-}
-
-.hover\:border-grey-lightest:hover {
-  border-color: #f8fafc;
-}
-
-.hover\:border-white:hover {
-  border-color: #fff;
-}
-
-.hover\:border-green-darkest:hover {
-  border-color: #0f2f21;
-}
-
-.hover\:border-green-darker:hover {
-  border-color: #1a4731;
-}
-
-.hover\:border-green-dark:hover {
-  border-color: #1f9d55;
-}
-
-.hover\:border-green:hover {
-  border-color: #38c172;
-}
-
-.hover\:border-green-light:hover {
-  border-color: #51d88a;
-}
-
-.hover\:border-green-lighter:hover {
-  border-color: #a2f5bf;
-}
-
-.hover\:border-green-lightest:hover {
-  border-color: #e3fcec;
-}
-
-.hover\:border-teal-darkest:hover {
-  border-color: #0d3331;
-}
-
-.hover\:border-teal-darker:hover {
-  border-color: #20504f;
-}
-
-.hover\:border-teal-dark:hover {
-  border-color: #38a89d;
-}
-
-.hover\:border-teal:hover {
-  border-color: #4dc0b5;
-}
-
-.hover\:border-teal-light:hover {
-  border-color: #64d5ca;
-}
-
-.hover\:border-teal-lighter:hover {
-  border-color: #a0f0ed;
-}
-
-.hover\:border-teal-lightest:hover {
-  border-color: #e8fffe;
-}
-
-.hover\:border-blue-darkest:hover {
-  border-color: #12283a;
-}
-
-.hover\:border-blue-darker:hover {
-  border-color: #1c3d5a;
-}
-
-.hover\:border-blue-dark:hover {
-  border-color: #2779bd;
-}
-
-.hover\:border-blue:hover {
-  border-color: #3490dc;
-}
-
-.hover\:border-blue-light:hover {
-  border-color: #6cb2eb;
-}
-
-.hover\:border-blue-lighter:hover {
-  border-color: #bcdefa;
-}
-
-.hover\:border-blue-lightest:hover {
-  border-color: #eff8ff;
-}
-
-.focus\:border-transparent:focus {
-  border-color: transparent;
-}
-
-.focus\:border-black:focus {
-  border-color: #22292f;
-}
-
-.focus\:border-grey-darkest:focus {
-  border-color: #3d4852;
-}
-
-.focus\:border-grey-darker:focus {
-  border-color: #606f7b;
-}
-
-.focus\:border-grey-dark:focus {
-  border-color: #8795a1;
-}
-
-.focus\:border-grey:focus {
-  border-color: #b8c2cc;
-}
-
-.focus\:border-grey-light:focus {
-  border-color: #dae1e7;
-}
-
-.focus\:border-grey-lighter:focus {
-  border-color: #f1f5f8;
-}
-
-.focus\:border-grey-lightest:focus {
-  border-color: #f8fafc;
-}
-
-.focus\:border-white:focus {
-  border-color: #fff;
-}
-
-.focus\:border-green-darkest:focus {
-  border-color: #0f2f21;
-}
-
-.focus\:border-green-darker:focus {
-  border-color: #1a4731;
-}
-
-.focus\:border-green-dark:focus {
-  border-color: #1f9d55;
-}
-
-.focus\:border-green:focus {
-  border-color: #38c172;
-}
-
-.focus\:border-green-light:focus {
-  border-color: #51d88a;
-}
-
-.focus\:border-green-lighter:focus {
-  border-color: #a2f5bf;
-}
-
-.focus\:border-green-lightest:focus {
-  border-color: #e3fcec;
-}
-
-.focus\:border-teal-darkest:focus {
-  border-color: #0d3331;
-}
-
-.focus\:border-teal-darker:focus {
-  border-color: #20504f;
-}
-
-.focus\:border-teal-dark:focus {
-  border-color: #38a89d;
-}
-
-.focus\:border-teal:focus {
-  border-color: #4dc0b5;
-}
-
-.focus\:border-teal-light:focus {
-  border-color: #64d5ca;
-}
-
-.focus\:border-teal-lighter:focus {
-  border-color: #a0f0ed;
-}
-
-.focus\:border-teal-lightest:focus {
-  border-color: #e8fffe;
-}
-
-.focus\:border-blue-darkest:focus {
-  border-color: #12283a;
-}
-
-.focus\:border-blue-darker:focus {
-  border-color: #1c3d5a;
-}
-
-.focus\:border-blue-dark:focus {
-  border-color: #2779bd;
-}
-
-.focus\:border-blue:focus {
-  border-color: #3490dc;
-}
-
-.focus\:border-blue-light:focus {
-  border-color: #6cb2eb;
-}
-
-.focus\:border-blue-lighter:focus {
-  border-color: #bcdefa;
-}
-
-.focus\:border-blue-lightest:focus {
   border-color: #eff8ff;
 }
 
@@ -2111,78 +1619,6 @@ table {
 }
 
 .font-black {
-  font-weight: 900;
-}
-
-.hover\:font-hairline:hover {
-  font-weight: 100;
-}
-
-.hover\:font-thin:hover {
-  font-weight: 200;
-}
-
-.hover\:font-light:hover {
-  font-weight: 300;
-}
-
-.hover\:font-normal:hover {
-  font-weight: 400;
-}
-
-.hover\:font-medium:hover {
-  font-weight: 500;
-}
-
-.hover\:font-semibold:hover {
-  font-weight: 600;
-}
-
-.hover\:font-bold:hover {
-  font-weight: 700;
-}
-
-.hover\:font-extrabold:hover {
-  font-weight: 800;
-}
-
-.hover\:font-black:hover {
-  font-weight: 900;
-}
-
-.focus\:font-hairline:focus {
-  font-weight: 100;
-}
-
-.focus\:font-thin:focus {
-  font-weight: 200;
-}
-
-.focus\:font-light:focus {
-  font-weight: 300;
-}
-
-.focus\:font-normal:focus {
-  font-weight: 400;
-}
-
-.focus\:font-medium:focus {
-  font-weight: 500;
-}
-
-.focus\:font-semibold:focus {
-  font-weight: 600;
-}
-
-.focus\:font-bold:focus {
-  font-weight: 700;
-}
-
-.focus\:font-extrabold:focus {
-  font-weight: 800;
-}
-
-.focus\:font-black:focus {
   font-weight: 900;
 }
 
@@ -3296,10 +2732,6 @@ table {
   outline: 0;
 }
 
-.focus\:outline-none:focus {
-  outline: 0;
-}
-
 .overflow-auto {
   overflow: auto;
 }
@@ -3804,14 +3236,6 @@ table {
 
 .pl-px {
   padding-left: 1px;
-}
-
-.pointer-events-none {
-  pointer-events: none;
-}
-
-.pointer-events-auto {
-  pointer-events: auto;
 }
 
 .static {
@@ -4449,98 +3873,6 @@ table {
   -moz-osx-font-smoothing: auto;
 }
 
-.hover\:italic:hover {
-  font-style: italic;
-}
-
-.hover\:roman:hover {
-  font-style: normal;
-}
-
-.hover\:uppercase:hover {
-  text-transform: uppercase;
-}
-
-.hover\:lowercase:hover {
-  text-transform: lowercase;
-}
-
-.hover\:capitalize:hover {
-  text-transform: capitalize;
-}
-
-.hover\:normal-case:hover {
-  text-transform: none;
-}
-
-.hover\:underline:hover {
-  text-decoration: underline;
-}
-
-.hover\:line-through:hover {
-  text-decoration: line-through;
-}
-
-.hover\:no-underline:hover {
-  text-decoration: none;
-}
-
-.hover\:antialiased:hover {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.hover\:subpixel-antialiased:hover {
-  -webkit-font-smoothing: auto;
-  -moz-osx-font-smoothing: auto;
-}
-
-.focus\:italic:focus {
-  font-style: italic;
-}
-
-.focus\:roman:focus {
-  font-style: normal;
-}
-
-.focus\:uppercase:focus {
-  text-transform: uppercase;
-}
-
-.focus\:lowercase:focus {
-  text-transform: lowercase;
-}
-
-.focus\:capitalize:focus {
-  text-transform: capitalize;
-}
-
-.focus\:normal-case:focus {
-  text-transform: none;
-}
-
-.focus\:underline:focus {
-  text-decoration: underline;
-}
-
-.focus\:line-through:focus {
-  text-decoration: line-through;
-}
-
-.focus\:no-underline:focus {
-  text-decoration: none;
-}
-
-.focus\:antialiased:focus {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.focus\:subpixel-antialiased:focus {
-  -webkit-font-smoothing: auto;
-  -moz-osx-font-smoothing: auto;
-}
-
 .tracking-tight {
   letter-spacing: -0.05em;
 }
@@ -4551,20 +3883,6 @@ table {
 
 .tracking-wide {
   letter-spacing: .05em;
-}
-
-.select-none {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-.select-text {
-  -webkit-user-select: text;
-     -moz-user-select: text;
-      -ms-user-select: text;
-          user-select: text;
 }
 
 .align-baseline {
@@ -4804,18 +4122,6 @@ table {
             appearance: none;
   }
 
-  .sm\:bg-fixed {
-    background-attachment: fixed;
-  }
-
-  .sm\:bg-local {
-    background-attachment: local;
-  }
-
-  .sm\:bg-scroll {
-    background-attachment: scroll;
-  }
-
   .sm\:block {
     display: block;
   }
@@ -5008,114 +4314,6 @@ table {
     content: "";
     display: table;
     clear: both;
-  }
-
-  .sm\:font-hairline {
-    font-weight: 100;
-  }
-
-  .sm\:font-thin {
-    font-weight: 200;
-  }
-
-  .sm\:font-light {
-    font-weight: 300;
-  }
-
-  .sm\:font-normal {
-    font-weight: 400;
-  }
-
-  .sm\:font-medium {
-    font-weight: 500;
-  }
-
-  .sm\:font-semibold {
-    font-weight: 600;
-  }
-
-  .sm\:font-bold {
-    font-weight: 700;
-  }
-
-  .sm\:font-extrabold {
-    font-weight: 800;
-  }
-
-  .sm\:font-black {
-    font-weight: 900;
-  }
-
-  .sm\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .sm\:hover\:font-thin:hover {
-    font-weight: 200;
-  }
-
-  .sm\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-
-  .sm\:hover\:font-normal:hover {
-    font-weight: 400;
-  }
-
-  .sm\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-
-  .sm\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-
-  .sm\:hover\:font-bold:hover {
-    font-weight: 700;
-  }
-
-  .sm\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-
-  .sm\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-
-  .sm\:focus\:font-hairline:focus {
-    font-weight: 100;
-  }
-
-  .sm\:focus\:font-thin:focus {
-    font-weight: 200;
-  }
-
-  .sm\:focus\:font-light:focus {
-    font-weight: 300;
-  }
-
-  .sm\:focus\:font-normal:focus {
-    font-weight: 400;
-  }
-
-  .sm\:focus\:font-medium:focus {
-    font-weight: 500;
-  }
-
-  .sm\:focus\:font-semibold:focus {
-    font-weight: 600;
-  }
-
-  .sm\:focus\:font-bold:focus {
-    font-weight: 700;
-  }
-
-  .sm\:focus\:font-extrabold:focus {
-    font-weight: 800;
-  }
-
-  .sm\:focus\:font-black:focus {
-    font-weight: 900;
   }
 
   .sm\:h-1 {
@@ -6196,82 +5394,6 @@ table {
     margin-left: -1px;
   }
 
-  .sm\:opacity-0 {
-    opacity: 0;
-  }
-
-  .sm\:opacity-25 {
-    opacity: .25;
-  }
-
-  .sm\:opacity-50 {
-    opacity: .5;
-  }
-
-  .sm\:opacity-75 {
-    opacity: .75;
-  }
-
-  .sm\:opacity-100 {
-    opacity: 1;
-  }
-
-  .sm\:overflow-auto {
-    overflow: auto;
-  }
-
-  .sm\:overflow-hidden {
-    overflow: hidden;
-  }
-
-  .sm\:overflow-visible {
-    overflow: visible;
-  }
-
-  .sm\:overflow-scroll {
-    overflow: scroll;
-  }
-
-  .sm\:overflow-x-auto {
-    overflow-x: auto;
-  }
-
-  .sm\:overflow-y-auto {
-    overflow-y: auto;
-  }
-
-  .sm\:overflow-x-hidden {
-    overflow-x: hidden;
-  }
-
-  .sm\:overflow-y-hidden {
-    overflow-y: hidden;
-  }
-
-  .sm\:overflow-x-visible {
-    overflow-x: visible;
-  }
-
-  .sm\:overflow-y-visible {
-    overflow-y: visible;
-  }
-
-  .sm\:overflow-x-scroll {
-    overflow-x: scroll;
-  }
-
-  .sm\:overflow-y-scroll {
-    overflow-y: scroll;
-  }
-
-  .sm\:scrolling-touch {
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .sm\:scrolling-auto {
-    -webkit-overflow-scrolling: auto;
-  }
-
   .sm\:p-0 {
     padding: 0;
   }
@@ -6722,14 +5844,6 @@ table {
     padding-left: 1px;
   }
 
-  .sm\:pointer-events-none {
-    pointer-events: none;
-  }
-
-  .sm\:pointer-events-auto {
-    pointer-events: auto;
-  }
-
   .sm\:static {
     position: static;
   }
@@ -6877,20 +5991,6 @@ table {
 
   .sm\:tracking-wide {
     letter-spacing: .05em;
-  }
-
-  .sm\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-  }
-
-  .sm\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
   }
 
   .sm\:align-baseline {
@@ -7088,18 +6188,6 @@ table {
             appearance: none;
   }
 
-  .md\:bg-fixed {
-    background-attachment: fixed;
-  }
-
-  .md\:bg-local {
-    background-attachment: local;
-  }
-
-  .md\:bg-scroll {
-    background-attachment: scroll;
-  }
-
   .md\:block {
     display: block;
   }
@@ -7292,114 +6380,6 @@ table {
     content: "";
     display: table;
     clear: both;
-  }
-
-  .md\:font-hairline {
-    font-weight: 100;
-  }
-
-  .md\:font-thin {
-    font-weight: 200;
-  }
-
-  .md\:font-light {
-    font-weight: 300;
-  }
-
-  .md\:font-normal {
-    font-weight: 400;
-  }
-
-  .md\:font-medium {
-    font-weight: 500;
-  }
-
-  .md\:font-semibold {
-    font-weight: 600;
-  }
-
-  .md\:font-bold {
-    font-weight: 700;
-  }
-
-  .md\:font-extrabold {
-    font-weight: 800;
-  }
-
-  .md\:font-black {
-    font-weight: 900;
-  }
-
-  .md\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .md\:hover\:font-thin:hover {
-    font-weight: 200;
-  }
-
-  .md\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-
-  .md\:hover\:font-normal:hover {
-    font-weight: 400;
-  }
-
-  .md\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-
-  .md\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-
-  .md\:hover\:font-bold:hover {
-    font-weight: 700;
-  }
-
-  .md\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-
-  .md\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-
-  .md\:focus\:font-hairline:focus {
-    font-weight: 100;
-  }
-
-  .md\:focus\:font-thin:focus {
-    font-weight: 200;
-  }
-
-  .md\:focus\:font-light:focus {
-    font-weight: 300;
-  }
-
-  .md\:focus\:font-normal:focus {
-    font-weight: 400;
-  }
-
-  .md\:focus\:font-medium:focus {
-    font-weight: 500;
-  }
-
-  .md\:focus\:font-semibold:focus {
-    font-weight: 600;
-  }
-
-  .md\:focus\:font-bold:focus {
-    font-weight: 700;
-  }
-
-  .md\:focus\:font-extrabold:focus {
-    font-weight: 800;
-  }
-
-  .md\:focus\:font-black:focus {
-    font-weight: 900;
   }
 
   .md\:h-1 {
@@ -8480,82 +7460,6 @@ table {
     margin-left: -1px;
   }
 
-  .md\:opacity-0 {
-    opacity: 0;
-  }
-
-  .md\:opacity-25 {
-    opacity: .25;
-  }
-
-  .md\:opacity-50 {
-    opacity: .5;
-  }
-
-  .md\:opacity-75 {
-    opacity: .75;
-  }
-
-  .md\:opacity-100 {
-    opacity: 1;
-  }
-
-  .md\:overflow-auto {
-    overflow: auto;
-  }
-
-  .md\:overflow-hidden {
-    overflow: hidden;
-  }
-
-  .md\:overflow-visible {
-    overflow: visible;
-  }
-
-  .md\:overflow-scroll {
-    overflow: scroll;
-  }
-
-  .md\:overflow-x-auto {
-    overflow-x: auto;
-  }
-
-  .md\:overflow-y-auto {
-    overflow-y: auto;
-  }
-
-  .md\:overflow-x-hidden {
-    overflow-x: hidden;
-  }
-
-  .md\:overflow-y-hidden {
-    overflow-y: hidden;
-  }
-
-  .md\:overflow-x-visible {
-    overflow-x: visible;
-  }
-
-  .md\:overflow-y-visible {
-    overflow-y: visible;
-  }
-
-  .md\:overflow-x-scroll {
-    overflow-x: scroll;
-  }
-
-  .md\:overflow-y-scroll {
-    overflow-y: scroll;
-  }
-
-  .md\:scrolling-touch {
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .md\:scrolling-auto {
-    -webkit-overflow-scrolling: auto;
-  }
-
   .md\:p-0 {
     padding: 0;
   }
@@ -9006,14 +7910,6 @@ table {
     padding-left: 1px;
   }
 
-  .md\:pointer-events-none {
-    pointer-events: none;
-  }
-
-  .md\:pointer-events-auto {
-    pointer-events: auto;
-  }
-
   .md\:static {
     position: static;
   }
@@ -9161,20 +8057,6 @@ table {
 
   .md\:tracking-wide {
     letter-spacing: .05em;
-  }
-
-  .md\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-  }
-
-  .md\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
   }
 
   .md\:align-baseline {
@@ -9372,18 +8254,6 @@ table {
             appearance: none;
   }
 
-  .lg\:bg-fixed {
-    background-attachment: fixed;
-  }
-
-  .lg\:bg-local {
-    background-attachment: local;
-  }
-
-  .lg\:bg-scroll {
-    background-attachment: scroll;
-  }
-
   .lg\:block {
     display: block;
   }
@@ -9576,114 +8446,6 @@ table {
     content: "";
     display: table;
     clear: both;
-  }
-
-  .lg\:font-hairline {
-    font-weight: 100;
-  }
-
-  .lg\:font-thin {
-    font-weight: 200;
-  }
-
-  .lg\:font-light {
-    font-weight: 300;
-  }
-
-  .lg\:font-normal {
-    font-weight: 400;
-  }
-
-  .lg\:font-medium {
-    font-weight: 500;
-  }
-
-  .lg\:font-semibold {
-    font-weight: 600;
-  }
-
-  .lg\:font-bold {
-    font-weight: 700;
-  }
-
-  .lg\:font-extrabold {
-    font-weight: 800;
-  }
-
-  .lg\:font-black {
-    font-weight: 900;
-  }
-
-  .lg\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .lg\:hover\:font-thin:hover {
-    font-weight: 200;
-  }
-
-  .lg\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-
-  .lg\:hover\:font-normal:hover {
-    font-weight: 400;
-  }
-
-  .lg\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-
-  .lg\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-
-  .lg\:hover\:font-bold:hover {
-    font-weight: 700;
-  }
-
-  .lg\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-
-  .lg\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-
-  .lg\:focus\:font-hairline:focus {
-    font-weight: 100;
-  }
-
-  .lg\:focus\:font-thin:focus {
-    font-weight: 200;
-  }
-
-  .lg\:focus\:font-light:focus {
-    font-weight: 300;
-  }
-
-  .lg\:focus\:font-normal:focus {
-    font-weight: 400;
-  }
-
-  .lg\:focus\:font-medium:focus {
-    font-weight: 500;
-  }
-
-  .lg\:focus\:font-semibold:focus {
-    font-weight: 600;
-  }
-
-  .lg\:focus\:font-bold:focus {
-    font-weight: 700;
-  }
-
-  .lg\:focus\:font-extrabold:focus {
-    font-weight: 800;
-  }
-
-  .lg\:focus\:font-black:focus {
-    font-weight: 900;
   }
 
   .lg\:h-1 {
@@ -10764,82 +9526,6 @@ table {
     margin-left: -1px;
   }
 
-  .lg\:opacity-0 {
-    opacity: 0;
-  }
-
-  .lg\:opacity-25 {
-    opacity: .25;
-  }
-
-  .lg\:opacity-50 {
-    opacity: .5;
-  }
-
-  .lg\:opacity-75 {
-    opacity: .75;
-  }
-
-  .lg\:opacity-100 {
-    opacity: 1;
-  }
-
-  .lg\:overflow-auto {
-    overflow: auto;
-  }
-
-  .lg\:overflow-hidden {
-    overflow: hidden;
-  }
-
-  .lg\:overflow-visible {
-    overflow: visible;
-  }
-
-  .lg\:overflow-scroll {
-    overflow: scroll;
-  }
-
-  .lg\:overflow-x-auto {
-    overflow-x: auto;
-  }
-
-  .lg\:overflow-y-auto {
-    overflow-y: auto;
-  }
-
-  .lg\:overflow-x-hidden {
-    overflow-x: hidden;
-  }
-
-  .lg\:overflow-y-hidden {
-    overflow-y: hidden;
-  }
-
-  .lg\:overflow-x-visible {
-    overflow-x: visible;
-  }
-
-  .lg\:overflow-y-visible {
-    overflow-y: visible;
-  }
-
-  .lg\:overflow-x-scroll {
-    overflow-x: scroll;
-  }
-
-  .lg\:overflow-y-scroll {
-    overflow-y: scroll;
-  }
-
-  .lg\:scrolling-touch {
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .lg\:scrolling-auto {
-    -webkit-overflow-scrolling: auto;
-  }
-
   .lg\:p-0 {
     padding: 0;
   }
@@ -11290,14 +9976,6 @@ table {
     padding-left: 1px;
   }
 
-  .lg\:pointer-events-none {
-    pointer-events: none;
-  }
-
-  .lg\:pointer-events-auto {
-    pointer-events: auto;
-  }
-
   .lg\:static {
     position: static;
   }
@@ -11445,20 +10123,6 @@ table {
 
   .lg\:tracking-wide {
     letter-spacing: .05em;
-  }
-
-  .lg\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-  }
-
-  .lg\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
   }
 
   .lg\:align-baseline {
@@ -11656,18 +10320,6 @@ table {
             appearance: none;
   }
 
-  .xl\:bg-fixed {
-    background-attachment: fixed;
-  }
-
-  .xl\:bg-local {
-    background-attachment: local;
-  }
-
-  .xl\:bg-scroll {
-    background-attachment: scroll;
-  }
-
   .xl\:block {
     display: block;
   }
@@ -11860,114 +10512,6 @@ table {
     content: "";
     display: table;
     clear: both;
-  }
-
-  .xl\:font-hairline {
-    font-weight: 100;
-  }
-
-  .xl\:font-thin {
-    font-weight: 200;
-  }
-
-  .xl\:font-light {
-    font-weight: 300;
-  }
-
-  .xl\:font-normal {
-    font-weight: 400;
-  }
-
-  .xl\:font-medium {
-    font-weight: 500;
-  }
-
-  .xl\:font-semibold {
-    font-weight: 600;
-  }
-
-  .xl\:font-bold {
-    font-weight: 700;
-  }
-
-  .xl\:font-extrabold {
-    font-weight: 800;
-  }
-
-  .xl\:font-black {
-    font-weight: 900;
-  }
-
-  .xl\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .xl\:hover\:font-thin:hover {
-    font-weight: 200;
-  }
-
-  .xl\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-
-  .xl\:hover\:font-normal:hover {
-    font-weight: 400;
-  }
-
-  .xl\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-
-  .xl\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-
-  .xl\:hover\:font-bold:hover {
-    font-weight: 700;
-  }
-
-  .xl\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-
-  .xl\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-
-  .xl\:focus\:font-hairline:focus {
-    font-weight: 100;
-  }
-
-  .xl\:focus\:font-thin:focus {
-    font-weight: 200;
-  }
-
-  .xl\:focus\:font-light:focus {
-    font-weight: 300;
-  }
-
-  .xl\:focus\:font-normal:focus {
-    font-weight: 400;
-  }
-
-  .xl\:focus\:font-medium:focus {
-    font-weight: 500;
-  }
-
-  .xl\:focus\:font-semibold:focus {
-    font-weight: 600;
-  }
-
-  .xl\:focus\:font-bold:focus {
-    font-weight: 700;
-  }
-
-  .xl\:focus\:font-extrabold:focus {
-    font-weight: 800;
-  }
-
-  .xl\:focus\:font-black:focus {
-    font-weight: 900;
   }
 
   .xl\:h-1 {
@@ -13048,82 +11592,6 @@ table {
     margin-left: -1px;
   }
 
-  .xl\:opacity-0 {
-    opacity: 0;
-  }
-
-  .xl\:opacity-25 {
-    opacity: .25;
-  }
-
-  .xl\:opacity-50 {
-    opacity: .5;
-  }
-
-  .xl\:opacity-75 {
-    opacity: .75;
-  }
-
-  .xl\:opacity-100 {
-    opacity: 1;
-  }
-
-  .xl\:overflow-auto {
-    overflow: auto;
-  }
-
-  .xl\:overflow-hidden {
-    overflow: hidden;
-  }
-
-  .xl\:overflow-visible {
-    overflow: visible;
-  }
-
-  .xl\:overflow-scroll {
-    overflow: scroll;
-  }
-
-  .xl\:overflow-x-auto {
-    overflow-x: auto;
-  }
-
-  .xl\:overflow-y-auto {
-    overflow-y: auto;
-  }
-
-  .xl\:overflow-x-hidden {
-    overflow-x: hidden;
-  }
-
-  .xl\:overflow-y-hidden {
-    overflow-y: hidden;
-  }
-
-  .xl\:overflow-x-visible {
-    overflow-x: visible;
-  }
-
-  .xl\:overflow-y-visible {
-    overflow-y: visible;
-  }
-
-  .xl\:overflow-x-scroll {
-    overflow-x: scroll;
-  }
-
-  .xl\:overflow-y-scroll {
-    overflow-y: scroll;
-  }
-
-  .xl\:scrolling-touch {
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .xl\:scrolling-auto {
-    -webkit-overflow-scrolling: auto;
-  }
-
   .xl\:p-0 {
     padding: 0;
   }
@@ -13574,14 +12042,6 @@ table {
     padding-left: 1px;
   }
 
-  .xl\:pointer-events-none {
-    pointer-events: none;
-  }
-
-  .xl\:pointer-events-auto {
-    pointer-events: auto;
-  }
-
   .xl\:static {
     position: static;
   }
@@ -13729,20 +12189,6 @@ table {
 
   .xl\:tracking-wide {
     letter-spacing: .05em;
-  }
-
-  .xl\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-  }
-
-  .xl\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
   }
 
   .xl\:align-baseline {

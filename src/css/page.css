@@ -35,7 +35,9 @@
   * @import "components/buttons";
   * @import "components/forms";
   */
- 
+ .myclass {
+     display: none;
+ }
  /**
   * This injects all of Tailwind's utility classes, generated based on your
   * config file.
