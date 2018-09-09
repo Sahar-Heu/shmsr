@@ -1,0 +1,1 @@
+tailwind build c:\Hugo\Sites\shmsr\src\css\styles.css -c c:\Hugo\Sites\shmsr\tailwind.js -o c:\Hugo\Sites\shmsr\static\css\site.css
