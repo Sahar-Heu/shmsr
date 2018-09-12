@@ -1,0 +1,9 @@
+<div class="w-full sm:w-5/6 flex flex-row flex-wrap self-center justify-center p-3">
+    {{ range .Data.Pages }}
+    <div class="w-full sm:w-1/2 border-grey-darkest border rounded-sm shadow p-5 m-5">
+        <h2 class="font-normal my-3">{{ .Title }}</h2>
+        <p class="my-3">{{ .Summary }}</p>
+        <a href="{{ .Permalink }}" class="text-blue hover:text-blue-darker hover:no-underline my-3">{{ .Title }}</a>
+    </div>
+    {{ end }}
+</div>

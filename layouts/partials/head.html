@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" class="h-full">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="/css/page.css" as="style">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#000">
+    {{ if eq .Type "post" }}
+    {{- with .Params.twitter -}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+    <meta name="twitter:title" content="{{- $.Param "twitter.tw-title" -}}">
+    <meta name="twitter:description" content="{{- $.Param "twitter.tw-description" -}}">
+    <meta name="twitter:image" content="{{- $.Param "twitter.tw-image" -}}">
+    {{- end -}}
+    {{ end }}
+    <base href="{{ .Site.BaseURL }}">
+    <title>{{ if .IsHome }}{{ .Site.Params.Title }}{{ else }}{{ .Title }} | {{ .Site.Params.author }}{{ end }}</title>
+    <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/page.css">
+    <noscript>
+       
+    </noscript>
+</head>
+<body class="font-sans font-normal flex flex-col">
