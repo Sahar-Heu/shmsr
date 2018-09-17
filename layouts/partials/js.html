@@ -1,6 +1,17 @@
 <script>
+    var nav = document.getElementById('site-menu');
+    var bod = document.getElementsByTagName('body')[0];
+    window.addEventListener('scroll', function() {
+        if (window.scrollY >=350) {
+            bod.classList.add('bod-pt-scroll');
+            nav.classList.add('nav-sticky');
+        } else {
+            bod.classList.remove('bod-pt-scroll');
+            nav.classList.remove('nav-sticky');
+        }
+    });
+
     function navToggle() {
-        var m = document.getElementById('site-menu');
-        m.classList.toggle('flex');
+        nav.classList.toggle('flex');
     }
 </script>

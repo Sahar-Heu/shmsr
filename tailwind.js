@@ -802,7 +802,7 @@ module.exports = {
   modules: {
     appearance: [],
     backgroundAttachment: [],
-    backgroundColors: [],
+    backgroundColors: ['hover'],
     backgroundPosition: [],
     backgroundRepeat: [],
     backgroundSize: [],
@@ -831,7 +831,7 @@ module.exports = {
     overflow: [],
     padding: [],
     pointerEvents: false,
-    position: [],
+    position: ['responsive'],
     resize: [],
     shadows: ['hover', 'focus'],
     svgFill: [],

@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<div class="w-full xl:w-2/3 flex flex-row flex-wrap self-center justify-center mb-5">
+    {{ range .Data.Pages }}
+    <div class="w-full xl:w-3/4 flex flex-row flex-wrap sm:flex-no-wrap border border-grey-light hover:border-grey rounded-sm shadow hover:shadow-md m-5">
+        <div class="w-full h-48 sm:w-1/3 bg-center bg-cover" style="background-image:url(/img/work/{{ .Params.img }})">
+            <a href="{{ .Permalink }}" class="block w-full h-full">&nbsp;</a>
+        </div>
+        <div class="w-full sm:w-2/3 py-5 px-5">
+            <h1 class="font-normal mb-3">{{ .Title }}</h1>
+            <p class="text-lg mb-5">{{ .Description }}</p>
+            <div class="w-full h-px bg-grey-light mb-5"></div>
+            <a href="{{ .Permalink }}" class="inline-block text-blue hover:text-white no-underline border rounded-sm border-blue hover:border-blue-darker hover:bg-blue-darker px-5 py-2 mb-3">Go to {{ .Title }}</a>
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ partial "footer.html" . }}

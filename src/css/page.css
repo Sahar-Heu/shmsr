@@ -36,6 +36,54 @@
   * @import "components/forms";
   */
 
+
+  
+ /**
+  * This injects all of Tailwind's utility classes, generated based on your
+  * config file.
+  *
+  * If using `postcss-import`, use this import instead:
+  *
+  * @import "tailwindcss/utilities";
+  */
+ @tailwind utilities;
+ 
+ /**
+  * Here you would add any custom utilities you need that don't come out of the
+  * box with Tailwind.
+  *
+  * Example :
+  *
+  * .bg-pattern-graph-paper { ... }
+  * .skew-45 { ... }
+  *
+  * Or if using a preprocessor or `postcss-import`:
+  *
+  * @import "utilities/background-patterns";
+  * @import "utilities/skew-transforms";
+  */
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 75px;
+    }
+}
+
+@media (min-width: 576px) {
+    .bod-pt-scroll {
+        padding-top: 50px;
+    }
+    .nav-sticky {
+        position: fixed;
+        min-width: 100%;
+        max-height: 50px;
+        top: 0;
+        background-color: #3d4852!important;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+        transition: all .25s ease-in;
+    }
+}
+
 .mkd-content > h1,
 .mkd-content > h2,
 .mkd-content > h3,
@@ -51,12 +99,14 @@
     margin-bottom: .75rem;
 }
 
-.mkd-content > p a {
+.mkd-content > p a,
+.mkd-content > ul > li > a {
     color: #3490dc;
     text-decoration: underline;
 }
 
-.mkd-content > p a:hover {
+.mkd-content > p a:hover,
+.mkd-content > ul > li > a:hover {
     color: #1c3d5a;
     text-decoration: none;
 }
@@ -140,28 +190,3 @@
     font-size: 100%;
     box-shadow: none
 }
-  
- /**
-  * This injects all of Tailwind's utility classes, generated based on your
-  * config file.
-  *
-  * If using `postcss-import`, use this import instead:
-  *
-  * @import "tailwindcss/utilities";
-  */
- @tailwind utilities;
- 
- /**
-  * Here you would add any custom utilities you need that don't come out of the
-  * box with Tailwind.
-  *
-  * Example :
-  *
-  * .bg-pattern-graph-paper { ... }
-  * .skew-45 { ... }
-  *
-  * Or if using a preprocessor or `postcss-import`:
-  *
-  * @import "utilities/background-patterns";
-  * @import "utilities/skew-transforms";
-  */
