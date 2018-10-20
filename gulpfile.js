@@ -9,6 +9,6 @@ gulp.task('procss', function () {
         tailwindcss('./tailwind.js'),
         require('autoprefixer'),
       ]))
-      //.pipe(cssnano())
+      .pipe(cssnano())
       .pipe(gulp.dest('static/css/'));
   });

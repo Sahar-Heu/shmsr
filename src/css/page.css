@@ -1,3 +1,8 @@
+@font-face{ 
+	font-family: 'Cotoris';
+    src: url('/font/Cotoris.otf') format('opentype');
+}
+
 /**
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
@@ -62,6 +67,9 @@
   * @import "utilities/background-patterns";
   * @import "utilities/skew-transforms";
   */
+body {
+    /*font-family: 'Open Sans', sans-serif;*/
+}
 
 @media (max-width: 576px) {
     body {
@@ -84,13 +92,28 @@
     }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cotoris', serif;
+    font-weight: 400;
+}
+
+h1 {font-size: 3rem}
+h2 {font-size: 2.5rem}
+h3 {font-size: 1.75rem}
+h4 {font-size: 1.5rem}
+h5 {font-size: 1.25rem}
+
 .mkd-content > h1,
 .mkd-content > h2,
 .mkd-content > h3,
 .mkd-content > h4,
 .mkd-content > h5,
 .mkd-content > h6 {
-    font-weight: 400;
     margin-top: .75rem;
     margin-bottom: .75rem;
 }
