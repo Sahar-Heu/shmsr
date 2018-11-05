@@ -71,6 +71,10 @@ body {
     /*font-family: 'Open Sans', sans-serif;*/
 }
 
+:hover {
+    transition: all 300ms ease;
+}
+
 @media (max-width: 576px) {
     body {
         padding-top: 75px;
