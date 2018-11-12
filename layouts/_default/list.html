@@ -1,9 +1,8 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ define "main" }}
 <div class="w-full sm:w-5/6 flex flex-row flex-wrap self-center justify-center p-3">
-    <div class="mkd-content w-full sm:w-2/3">
-        <h1 class="text-blue-darker">{{ .Title }}</h1>
+    <div class="w-full sm:w-2/3">
+        <h1 class="text-teal-dark">{{ .Title }}</h1>
         {{ .Content }}
     </div>
 </div>
-{{ partial "footer.html" . }}
+{{ end }}

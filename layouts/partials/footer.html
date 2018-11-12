@@ -1,16 +1,11 @@
-<footer class="w-full flex flex-wrap justify-center bg-grey-darkest text-grey-light py-5">
-    <div class="w-full flex flex-row justify-center my-5">
-        <button class="text-teal-dark hover:text-teal border border-teal-dark hover:border-teal uppercase py-3 px-20">Logo</button>
-    </div>
+<footer class="w-full flex flex-wrap justify-center bg-grey-light text-grey-dark py-5">
     <div id="footer-menu" class="w-full flex flex-row flex-wrap sm:flex-no-wrap justify-center text-sm">
-        <a href="{{ .Site.BaseURL }}" class="w-full sm:w-auto text-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Home</a>
-        <a href="/work" class="w-full sm:w-auto text-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Work</a>
-        <a href="/post" class="w-full sm:w-auto text-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Blog</a>
-        <a href="/about" class="w-full sm:w-auto text-center text-teal-dark hover:text-teal no-underline mx-3 my-3">About</a>
-        <a href="/contact" class="w-full sm:w-auto text-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Contact</a>
-        <a href="{{ .Permalink }}#top" class="w-full sm:w-auto text-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Back to Top</a>
+        <img src="/img/footer-logo.png" class="block h-16">
+        <a href="{{ .Site.BaseURL }}" class="w-full sm:w-auto self-center text-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Home</a>
+        <a href="/work" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Work</a>
+        <a href="/post" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Blog</a>
+        <a href="/about" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">About</a>
+        <a href="/contact" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Contact</a>
+        <a href="{{ .Permalink }}#top" class="w-full sm:w-auto self-center text-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Back to Top</a>
     </div>
 </footer>
-{{ partial "js.html" . }}
-</body>
-</html>

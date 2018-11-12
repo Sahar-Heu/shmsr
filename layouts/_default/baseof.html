@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ block "head" . }}
+        {{ partial "head.html" . }}
+    {{ end }}
+</head>
+<body id="top" class="font-sans leading-normal text-grey-dark flex flex-col">
+    {{ block "header" . }}
+        {{ partial "header.html" . }}
+    {{ end }}
+    <main class="flex flex-col">
+        {{ block "main" . }}
+            <!-- content of the respective page -->
+        {{ end }}
+    </main>
+    {{ block "footer" . }}
+        {{ partial "footer.html" . }}
+    {{ end }}
+    {{ partial "js.html" . }}
+</body>
+</html>
