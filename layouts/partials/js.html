@@ -1,6 +1,8 @@
 <script>
     var nav = document.getElementById('site-menu');
-    var bod = document.getElementsByTagName('body')[0];
+    var bod = document.getElementById('spacer');
+    var btt = document.getElementById('btt');
+
     window.addEventListener('scroll', function() {
         if (window.scrollY >=350) {
             bod.classList.add('bod-pt-scroll');
@@ -8,6 +10,13 @@
         } else {
             bod.classList.remove('bod-pt-scroll');
             nav.classList.remove('nav-sticky');
+        }
+        if (window.scrollY >=1080) {
+            btt.classList.remove('hidden');
+            btt.classList.add('btt-active');
+        } else {
+            btt.classList.remove('btt-active');
+            btt.classList.add('hidden');
         }
     });
 

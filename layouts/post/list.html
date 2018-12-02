@@ -1,13 +1,43 @@
 {{ define "main" }}
-<div class="w-full sm:w-2/3 flex flex-row flex-wrap self-center justify-center mb-5">
-    {{ range .Data.Pages }}
-    <div class="w-full sm:w-2/3 border border-grey-light rounded-sm p-5 m-5">
-        <h2 class="font-normal my-3">{{ .Title }}</h2>
-        <p class="text-grey-dark mb-3">Published {{ dateFormat (.Site.Params.DateForm | default "Mon, 2 Jan 2006") .Date }}</p>
-        <p class="mb-5">{{ .Summary }}</p>
-        <div class="w-full h-px bg-grey-light mb-5"></div>
-        <a href="{{ .Permalink }}" class="inline-block text-teal-dark hover:text-white no-underline border rounded-sm border-teal-dark hover:border-teal-dark hover:bg-teal-dark px-5 py-2 mb-3">{{ .Title }}</a>
-    </div>
-    {{ end }}
+<div class="w-full lg:w-5/6 xl:w-2/3 flex flex-row flex-no-wrap self-center justify-center mb-5">
+    <section class="w-full sm:w-2/3 flex flex-row flex-wrap flex-grow py-5">
+        {{ range .Pages }}
+        {{ $bImg := .Resources.GetMatch "blogImage" }}
+        <div class="py-5 md:px-5 lg:pr-10 w-full md:w-1/2 flex flex-col flex-wrap md:flex-no-wrap">
+            <div class="w-full">
+                <img src="{{ $bImg.RelPermalink }}" class="block w-full py-5 mb-5">
+            </div>
+            <div class="w-full px-3 sm-px-0 text-center">
+                <p class="text-grey-dark text-xs italic font-bold uppercase my-0">
+                    {{range $index, $tag := .Params.tags }}
+                        {{- if eq $index 0 -}}
+                            {{ $tag }}
+                        {{- else -}}
+                            , {{ $tag }}
+                        {{- end -}}
+                    {{ end }}
+                </p>
+                <h2 class="text-black text-4xl">{{ .Title }}</h2>
+                <p class="text-grey-dark text-xs text-teal-dark italic font-bold uppercase">{{ dateFormat (.Site.Params.DateForm | default "Mon, 2 Jan 2006") .Date }}</p>
+                <p class="text-left tracking-wide">{{ .Summary }}</p>
+                <a href="{{ .Permalink }}" class="inline-block self-center text-teal-dark text-sm uppercase tracking-wide hover:text-white no-underline border rounded-sm border-teal-dark hover:border-teal-dark hover:bg-teal-dark px-10 py-2 mb-3">Continue reading</a>
+            </div>
+            <div class="w-full h-px bg-teal mx-auto my-3"></div>
+        </div>
+        {{ end }}
+    </section>
+    <aside class="hidden xl:w-1/3 xl:flex flex-col py-5"><!-- SIDEBAR -->
+        <div class="text-center tracking-wide px-5 my-5 bg-grey-light">
+            <img src="/img/sahar.png" class="block w-3/4 mx-auto mt-12 mb-2">
+            <h2 class="uppercase roboto text-black">Hi, I'm Sahar</h2>
+            <h3 class="uppercase roboto text-black"> Welcome to my spot</h3>
+            <p>Here is where creativity, inspiration and design tips intertwine.</p>
+            <p>Reach out to:</p>
+            <h4 class="roboto">studio@sahar.design</h4>
+        </div>
+    </aside>
+    <section>
+        <!-- TODO: Pagination -->
+    </section>    
 </div>
 {{ end }}

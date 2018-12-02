@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="/css/page.css" as="style">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Sahar Heumesser">
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#fff">
+    <title>Under Construction | Sahar Heumesser</title>
+    <link rel="stylesheet" href="/css/page.css">
+</head>
+<body id="top" class="font-sans leading-normal text-grey-dark flex flex-col">
+    <main class="flex flex-col w-full justify-center h-screen">
+        <div class="self-center mx-auto my-auto text-center">
+            <img src="/img/construction.svg" class="max-w-sm block mx-auto mb-10">
+            <p class="text-2xl">This site is under construction and will be online soon...</p>
+        </div>
+    </main>
+</body>
+</html>

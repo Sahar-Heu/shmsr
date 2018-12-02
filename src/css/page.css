@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Loved+by+the+King');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300');
 
 /**
  * This injects Tailwind's base styles, which is a combination of
@@ -96,10 +96,39 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Loved by the King', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
-    transform: scaleY(.6);
+    /*transform: scaleY(.6);*/
     color: #849995;
-    letter-spacing: 1.25px;
-    text-transform: uppercase;
+    /*letter-spacing: 1.25px;
+    text-transform: uppercase;*/
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    max-width: 125px;
+    max-height: 0px;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,.15));
+    transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+}
+
+.back-to-top:hover {
+    transform: rotate(1080deg);
+}
+
+.btt-active {
+    max-height: 128.5px;
+    transition: max-height .5s ease-in-out;
+}
+
+@media (max-width: 767px) {
+    .back-to-top {
+        max-width: 75px;
+    }
 }

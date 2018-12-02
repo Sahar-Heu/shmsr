@@ -1,4 +1,4 @@
-<div class="w-full lg:w-2/3 flex flex-row flex-wrap self-center justify-center px-3">
+<div class="w-full lg:w-2/3 flex flex-row flex-wrap self-center justify-center">
     <div class="w-full border-grey-darkest px-5 my-3">
         <h2 class="mb-5">This is the HOME page</h2>
         <p class="my-3">
@@ -21,7 +21,7 @@
         {{ end }}
     </div>
     {{ range .Data.Pages }}
-    <div class="w-full lg:w-1/2 p-5">
+    <div class="w-full lg:w-1/2 py-5 px-5">
         <div class="w-full border bg-white rounded-lg border-grey-light transition p-5">
             <h2 class="font-normal my-3">{{ .Title }}</h2>
             <p class="mb-5">{{ .Summary }}</p>

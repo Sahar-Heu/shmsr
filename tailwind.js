@@ -49,7 +49,7 @@ let colors = {
   'black': '#22292f',
   'grey-dark': '#4d4d4d',
   'grey': '#b8c2cc',
-  'grey-light': '#f2f2f2',
+  'grey-light': '#f9f8fa', /*'#f2f2f2',*/
   'white': '#ffffff',
 
   'teal-dark': '#849995',
@@ -120,7 +120,7 @@ module.exports = {
   */
 
   fonts: {
-    'sans': [
+    /*'sans': [
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -134,7 +134,7 @@ module.exports = {
       'Helvetica Neue',
       'sans-serif',
     ],
-    /*'serif': [
+    'serif': [
       'Constantia',
       'Lucida Bright',
       'Lucidabright',
@@ -203,11 +203,11 @@ module.exports = {
   |
   */
 
-  fontWeights: {
+  /*fontWeights: {
     'light': 300,
     'normal': 400,
     'bold': 700,
-  },
+  },*/
 
 
   /*
@@ -792,16 +792,16 @@ module.exports = {
     borderRadius: [],
     borderStyle: [],
     borderWidths: [],
-    cursor: [],
+    cursor: false,
     display: ['responsive'],
     flexbox: ['responsive'],
-    float: [],
-    fonts: [],
+    float: false,
+    fonts: false,
     fontWeights: [],
-    height: ['responsive'],
+    height: [],
     leading: ['responsive'],
-    lists: ['responsive'],
-    margin: [],
+    lists: [],
+    margin: ['responsive'],
     maxHeight: [],
     maxWidth: [],
     minHeight: [],
@@ -810,21 +810,21 @@ module.exports = {
     opacity: [],
     outline: [],
     overflow: [],
-    padding: [],
+    padding: ['responsive'],
     pointerEvents: false,
     position: ['responsive'],
     resize: [],
     shadows: ['responsive'],
-    svgFill: [],
-    svgStroke: [],
-    tableLayout: [],
+    svgFill: false,
+    svgStroke: false,
+    tableLayout: false,
     textAlign: ['responsive'],
     textColors: ['hover'],
     textSizes: [],
     textStyle: ['hover'],
     tracking: ['responsive'],
     userSelect: false,
-    verticalAlign: ['responsive'],
+    verticalAlign: [],
     visibility: [],
     whitespace: [],
     width: ['responsive'],
