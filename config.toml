@@ -14,11 +14,28 @@ googleAnalytics = ""
     DateForm = "02. November 2006"
     showReadTime = 1
     showProjects = "false"
+    patreonLink = "https://patreon.com/#"
 
+[[params.social]]
+    title = "Instagram"
+    icon = "instagram"
+    url = "https://instagram.com/#"
 [[params.social]]
     title = "Twitter"
     icon = "twitter"
     url = "https://twitter.com/#"
+[[params.social]]
+    title = "Behance"
+    icon = "behance"
+    url = "https://behance.com/#"
+[[params.social]]
+    title = "Pinterest"
+    icon = "pinterest"
+    url = "https://pinterest.com/#"
+[[params.social]]
+    title = "Facebook"
+    icon = "facebook"
+    url = "https://facebook.com/#"
 [[params.social]]
     title = "LinkedIn"
     icon = "linkedin"

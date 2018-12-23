@@ -807,7 +807,7 @@ module.exports = {
     minHeight: [],
     minWidth: [],
     negativeMargin: [],
-    opacity: [],
+    opacity: ['hover'],
     outline: [],
     overflow: [],
     padding: ['responsive'],

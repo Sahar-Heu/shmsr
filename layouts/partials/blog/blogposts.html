@@ -1,0 +1,24 @@
+{{ range .Pages }}
+{{ $bImg := .Resources.GetMatch "blogImage" }}
+<div class="py-5 md:px-5 lg:pr-10 w-full md:w-1/2 flex flex-col flex-wrap md:flex-no-wrap">
+    <div class="w-full">
+        <img src="{{ $bImg.RelPermalink }}" class="block w-full py-5 mb-5">
+    </div>
+    <div class="w-full px-3 sm-px-0 text-center">
+        <p class="text-grey-dark text-xs italic font-bold uppercase my-0">
+            {{range $index, $tag := .Params.tags }}
+                {{- if eq $index 0 -}}
+                    {{ $tag }}
+                {{- else -}}
+                    , {{ $tag }}
+                {{- end -}}
+            {{ end }}
+        </p>
+        <h2 class="text-black text-4xl">{{ .Title }}</h2>
+        <p class="text-grey-dark text-xs text-teal-dark italic font-bold uppercase">{{ dateFormat (.Site.Params.DateForm | default "Mon, 2 Jan 2006") .Date }}</p>
+        <p class="text-left tracking-wide">{{ .Summary }}</p>
+        <a href="{{ .Permalink }}" class="inline-block self-center text-teal-dark text-sm uppercase tracking-wide hover:text-white no-underline border rounded-sm border-teal-dark hover:border-teal-dark hover:bg-teal-dark px-10 py-2 mb-3">Continue reading</a>
+    </div>
+    <div class="w-full h-px bg-teal mx-auto my-3"></div>
+</div>
+{{ end }}

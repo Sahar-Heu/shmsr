@@ -1,12 +1,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preload" href="/css/page.css" as="style">
-<!-- ADD PRELOAD FOR GOOGLE FONTS WHEN DECIDED WHICH ONES -->
+<link rel="preload" href="https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc4.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="https://fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="/font/ShallouRegular.woff2" as="font" crossorigin="anonymous">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
 <meta name="author" content="{{ .Site.Params.author }}">
 <meta name="robots" content="index,follow">
-<meta name="theme-color" content="#000">
+<meta name="theme-color" content="#fff">
 {{ if eq .Type "post" }}
 {{- with .Params.twitter -}}
 <meta name="twitter:card" content="summary_large_image">
