@@ -7,17 +7,7 @@
         <p>Reach out to:</p>
         <h4 class="roboto">studio@sahar.design</h4>
         <div class="flex flex-row flex-no-wrap justify-between py-5">
-            {{ range $index, $social := .Site.Params.social }}
-                {{- if eq $index 0 -}}
-                    <a href="{{ $social.url }}" title="{{ $social.title }}" class="inline-block hover:opacity-50 transition" target="_blank" rel="noopener">
-                        <img src="/img/icons/{{ $social.icon }}.svg" class="w-10 social-icon">
-                    </a>
-                {{- else -}}
-                    <a href="{{ $social.url }}" title="{{ $social.title }}" class="inline-block hover:opacity-50 transition pl-2" target="_blank" rel="noopener">
-                        <img src="/img/icons/{{ $social.icon }}.svg" class="w-10 social-icon">
-                    </a>
-                {{- end -}}
-            {{ end }}
+            {{ partial "social-icons.html" . }}
         </div>
     </div>
     <div class="tracking-wide text-center px-5 py-4 mt-10 bg-grey-light">

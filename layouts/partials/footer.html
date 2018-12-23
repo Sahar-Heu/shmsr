@@ -1,12 +1,13 @@
-<footer class="w-full flex flex-wrap justify-center bg-grey-light text-grey-dark py-5">
+<footer class="w-full flex flex-col flex-no-wrap justify-center bg-grey-light text-grey-dark pt-5">
     <div id="footer-menu" class="w-full flex flex-row flex-wrap sm:flex-no-wrap justify-center text-sm">
         <img src="/img/footer-logo.png" class="block h-16">
         <a href="{{ .Site.BaseURL }}" title="Home" class="w-full sm:w-auto self-center text-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Home</a>
-        <a href="/shop" title="Shop" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Shop</a>
-        <a href="/post" title="Blog" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Blog</a>
         <a href="/about" title="About" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">About</a>
+        <a href="/shop" title="Shop" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Shop</a>
+        <a href="/blog" title="Blog" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Blog</a>
         <a href="/contact" title="Contact" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Contact</a>
     </div>
+    <p class="self-center text-sm text-grey-dark">&copy; {{ .Site.Params.year }} {{ .Site.Params.author }}</p>
 </footer>
 <div class="">
     <a href="{{ .Permalink }}#top" title="Back to Top">

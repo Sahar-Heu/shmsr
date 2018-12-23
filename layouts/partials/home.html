@@ -1,21 +1,22 @@
-<div class="w-full lg:w-2/3 flex flex-row flex-wrap self-center justify-center">
-    <div class="w-full border-grey-darkest px-5 my-3">
-        <h2 class="mb-5">This is the HOME page</h2>
-        <p class="my-3">
-            Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
-        </p>
+{{ $headless := .Site.GetPage "/home" }}
+    {{ $intro := $headless.Resources.GetMatch (printf "*%s*" "intro") }}
+    {{ $fwImg := $headless.Resources.GetMatch "fullwidth-img" }}
+
+{{ with $fwImg }}
+<section class="w-full flex flex-col justify-center text-center text-grey-light bg-fixed bg-no-repeat" style="background-image: url('{{ .Permalink }}');min-height:400px;">{{ end }}
+    <h1 class="self-center text-white">This is the HOME page</h1>
+</section>
+<div class="w-full lg:w-1/2 flex flex-col flex-wrap self-center justify-center px-5">
+    <div class="w-full pt-10">
+        {{ with $intro }}
+            {{ .Content }}
+        {{ end }}
+        <h1 class="text-center">Contact me</h1>
+        <h2 class="text-center roboto">studio@sahar.design</h2>
+        <div class="w-3/4 h-px bg-teal mx-auto my-5"></div>
+        <h1 class="text-center">Follow me on Social Media</h1>
     </div>
-    <div class="m-auto flex flex-wrap items-center justify-start">
-        <p>An image here</p>
+    <div class="w-full sm:w-1/2 flex flex-row flex-no-wrap self-center justify-between pt-5 pb-10">
+        {{ partial "social-icons.html" . }}
     </div>
-    {{ range .Data.Pages }}
-    <div class="w-full lg:w-1/2 py-5 px-5">
-        <div class="w-full border bg-white rounded-lg border-grey-light transition p-5">
-            <h2 class="font-normal my-3">{{ .Title }}</h2>
-            <p class="mb-5">{{ .Summary }}</p>
-            <div class="w-full h-px bg-grey-light mb-5"></div>
-            <a href="{{ .Permalink }}" class="inline-block text-teal-dark hover:text-white no-underline border rounded-sm border-teal-dark hover:border-teal-dark hover:bg-teal-dark px-5 py-2 mb-3">{{ .Title }}</a>
-        </div>
-    </div>
-    {{ end }}
 </div>
