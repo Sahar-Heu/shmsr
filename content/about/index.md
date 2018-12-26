@@ -3,7 +3,7 @@ title: About
 type: about
 resources:
     - name: about-img
-      src: about.jpg
+      src: about.png
 ---
 
 Hello, I'm <span class="shallou text-4xl tracking-wide font-bold">Sahar</span>, 

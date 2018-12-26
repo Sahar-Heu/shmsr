@@ -6,15 +6,12 @@
         <p>Here is where creativity, inspiration and design tips intertwine.</p>
         <p>Reach out to:</p>
         <h4 class="roboto">studio@sahar.design</h4>
-        <div class="flex flex-row flex-no-wrap justify-between py-5">
+        <div class="flex flex-row flex-no-wrap justify-between self-center mx-auto w-3/4 py-5 pb-10">
             {{ partial "social-icons.html" . }}
         </div>
     </div>
-    <div class="tracking-wide text-center px-5 py-4 mt-10 bg-grey-light">
-        <h2 class="uppercase text-teal-dark">Become a Patreon of my Art</h2>
-        <a href="{{ .Site.Params.patreonLink }}" title="Become a Patreon of my Art" target="_blank" rel="noopener">
-            <img src="/img/patreon-logo.svg" class="w-5/6 my-4 px-8 py-2 border-teal border border-solid">
-        </a>
+    <div class="tracking-wide text-center uppercase px-5 py-4 mt-10 bg-grey-light">
+        {{ partial "patreon-btn.html" . }}
     </div>
     <div class="tracking-wide px-5 mt-16 bg-grey-light">
         <h2 class="shallou text-center text-black text-4xl font-bold -mt-5">Explore the Blog</h2>

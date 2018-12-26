@@ -2,9 +2,11 @@
 {{ $bImg := .Resources.GetMatch "blogImage" }}
 <div class="py-5 md:px-5 lg:pr-10 w-full md:w-1/2 flex flex-col flex-wrap md:flex-no-wrap">
     <div class="w-full">
-        <img src="{{ $bImg.RelPermalink }}" class="block w-full py-5 mb-5">
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+            <img src="{{ $bImg.RelPermalink }}" class="block w-full py-5 mb-5">
+        </a>
     </div>
-    <div class="w-full px-3 sm-px-0 text-center">
+    <div class="w-full px-3 sm:px-0 text-center">
         <p class="text-grey-dark text-xs italic font-bold uppercase my-0">
             {{range $index, $tag := .Params.tags }}
                 {{- if eq $index 0 -}}

@@ -1,13 +1,20 @@
 {{ define "main" }}
+<style>
+    @media(max-width:991px) {
+        .about-img {min-height: 110vw;}
+    }
+</style>
 {{ $image := .Resources.GetMatch "about-img" }}
-<div class="w-full xl:w-3/4 flex flex-row flex-wrap sm:flex-no-wrap self-center justify-start p-3 py-8">
+<div class="w-full xl:w-3/4 flex lg:flex-row flex-col-reverse flex-no-wrap self-center justify-start lg:px-3 py-8 lg:my-4">
     {{ with $image }}
-        <!--img src="{{ $image.Permalink }}" class="w-full sm:w-1/3 h-full" title="This is me" alt="This is me"-->
-        <div class="w-full bg-cover bg-center" style="background-image:url('{{ $image.Permalink }}');"></div>
+        <div class="w-full bg-cover bg-center bg-no-repeat flex-1 about-img" style="background-image:url('{{ $image.Permalink }}');"></div>
     {{ end }}
-    <div class="bg-grey-light flex flex-col flex-no-wrap px-10 py-16">
+    <div class="flex flex-col flex-no-wrap flex-1 w-full lg:w-2/3 p-3">
         {{ .Content }}
-        <h2 class="text-center mt-10">Follow me on Social Media</h2>
+        <div class="w-full sm:w-1/2 flex flex-col flex-no-wrap self-center text-center mx-auto justify-between pt-5">
+            {{ partial "patreon-btn.html" . }}
+        </div>
+        <h2 class="text-center mt-8">Follow me on Social Media</h2>
         <div class="w-full sm:w-1/2 flex flex-row flex-no-wrap self-center justify-between pt-5">
             {{ partial "social-icons.html" . }}
         </div>

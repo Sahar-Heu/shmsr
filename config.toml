@@ -1,5 +1,5 @@
 # SETUP
-baseurl = "/"
+baseurl = "https://sahar.design"
 #publishdir = ""
 theme = ""
 DefaultContentLanguage = "en"
@@ -16,14 +16,16 @@ googleAnalytics = ""
     showProjects = "false"
     patreonLink = "https://patreon.com/#"
 
+# SOCIAL NETWORKS
+
 [[params.social]]
     title = "Instagram"
     icon = "instagram"
-    url = "https://instagram.com/#"
+    url = "https://www.instagram.com/saharheumesser/"
 [[params.social]]
     title = "Twitter"
     icon = "twitter"
-    url = "https://twitter.com/#"
+    url = "https://twitter.com/SaharHeumesser"
 [[params.social]]
     title = "Behance"
     icon = "behance"
@@ -31,7 +33,7 @@ googleAnalytics = ""
 [[params.social]]
     title = "Pinterest"
     icon = "pinterest"
-    url = "https://pinterest.com/#"
+    url = "https://www.pinterest.at/saharHeumesser/"
 [[params.social]]
     title = "Facebook"
     icon = "facebook"
@@ -40,6 +42,21 @@ googleAnalytics = ""
     title = "LinkedIn"
     icon = "linkedin"
     url = "https://www.linkedin.com/in/#"
+
+# SHOPS
+
+[[params.shops]]
+    title = "Spoonflower"
+    img = "spoonflower"
+    url = "https://spoonflower.com/#"
+[[params.shops]]
+    title = "Etsy"
+    img = "etsy"
+    url = "https://www.etsy.com/shop/SaharHeumesser"
+[[params.shops]]
+    title = "Creative Market"
+    img = "creativemarket"
+    url = "https://creativemarket.com/#"
 
 # BLOG
 paginate = 3
