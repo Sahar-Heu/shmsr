@@ -1,13 +1,24 @@
-<footer class="w-full flex flex-col flex-no-wrap justify-center bg-grey-light text-grey-dark pt-5">
-    <div id="footer-menu" class="w-full flex flex-row flex-wrap sm:flex-no-wrap justify-center text-sm">
-        <img src="/img/footer-logo.png" class="block h-16">
-        <a href="{{ .Site.BaseURL }}" title="Home" class="w-full sm:w-auto self-center text-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Home</a>
-        <a href="/about" title="About" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">About</a>
-        <a href="/shop" title="Shop" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Shop</a>
-        <a href="/blog" title="Blog" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Blog</a>
-        <a href="/contact" title="Contact" class="w-full sm:w-auto text-center self-center text-teal-dark hover:text-teal no-underline mx-3 my-3">Contact</a>
+<footer class="w-full flex flex-col flex-no-wrap justify-center bg-grey-light mt-12">
+    <div id="footer-menu" class="w-full lg:w-3/4 xl:w-1/2 flex flex-col lg:flex-row flex-wrap lg:flex-no-wrap justify-center self-center pb-4">
+        <div class="text-center flex-1">
+            <h2 class="shallou text-black font-bold text-4xl -mt-6">Contact me</h2>
+            <h3 class="roboto mt-6">
+                <a class="no-underline tracking-wide" href="mailto:studio@sahar.design">studio@sahar.design</a>
+            </h3>
+        </div>
+        <div class="hidden lg:block flex-1 px-24 pt-2">
+            <img src="/img/footer-logo.png" class="block h-32 mx-auto">
+        </div>
+        <div class="text-center flex-1 mt-16 lg:mt-0">
+            <h2 class="shallou text-black font-bold text-4xl -mt-6">Follow me</h2>
+            <div class="w-full flex flex-row flex-no-wrap self-center justify-center lg:justify-between px-16 lg:px-0 my-4">
+                {{ partial "social-icons.html" . }}
+            </div>
+        </div>
     </div>
-    <p class="self-center text-sm text-grey-dark">&copy; {{ .Site.Params.year }} {{ .Site.Params.author }}</p>
+    <div class="w-full bg-white text-center py-8 lg:py-4">
+        <p class="self-center text-sm text-grey-dark mb-0">&copy; {{ .Site.Params.author }} {{ .Site.Params.year }}, all rights reserved - <a href="/imprint">Imprint</a></p>
+    </div>
 </footer>
 <div class="">
     <a href="{{ .Permalink }}#top" title="Back to Top">

@@ -7,7 +7,7 @@
         </a>
     </div>
     <div class="w-full px-3 sm:px-0 text-center">
-        <p class="text-grey-dark text-xs italic font-bold uppercase my-0">
+        <p class="text-grey-dark text-xs uppercase my-0">
             {{range $index, $tag := .Params.tags }}
                 {{- if eq $index 0 -}}
                     {{ $tag }}
@@ -17,9 +17,9 @@
             {{ end }}
         </p>
         <h2 class="text-black text-4xl">{{ .Title }}</h2>
-        <p class="text-grey-dark text-xs text-teal-dark italic font-bold uppercase">{{ dateFormat (.Site.Params.DateForm | default "Mon, 2 Jan 2006") .Date }}</p>
+        <p class="text-grey-dark text-xs text-teal-dark uppercase">{{ dateFormat (.Site.Params.DateForm | default "Mon, 2 Jan 2006") .Date }}</p>
         <p class="text-left tracking-wide">{{ .Summary }}</p>
-        <a href="{{ .Permalink }}" class="inline-block self-center text-teal-dark text-sm uppercase tracking-wide hover:text-white no-underline border rounded-sm border-teal-dark hover:border-teal-dark hover:bg-teal-dark px-10 py-2 mb-3">Continue reading</a>
+        <a href="{{ .Permalink }}" class="btn btn-primary self-center text-sm uppercase tracking-wide no-underline px-10 py-2 mb-3">Continue reading</a>
     </div>
     <div class="w-full h-px bg-teal mx-auto my-3"></div>
 </div>

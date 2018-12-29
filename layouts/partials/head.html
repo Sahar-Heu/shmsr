@@ -4,6 +4,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc4.woff2" as="font" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2" as="font" crossorigin="anonymous">
 <link rel="preload" href="/font/ShallouRegular.woff2" as="font" crossorigin="anonymous">
+{{ if eq .Section "about" }}
+    <link rel="preload" href="/about/about.jpg" as="image" crossorigin="anonymous">
+{{ end }}
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
 <meta name="author" content="{{ .Site.Params.author }}">

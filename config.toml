@@ -1,5 +1,5 @@
 # SETUP
-baseurl = "https://sahar.design"
+baseurl = "https://shrwip.netlify.com"
 #publishdir = ""
 theme = ""
 DefaultContentLanguage = "en"
@@ -7,14 +7,14 @@ canonifyUrls = "true"
 googleAnalytics = ""
 
 [params]
-    year = "2018"
+    year = "2019"
     author = "Sahar Heumesser"
-    title = "Sahar's Site"
+    title = "Sahar Heumesser | Graphic Designer"
     description = "Sahar's Site Description"
     DateForm = "02. November 2006"
     showReadTime = 1
     showProjects = "false"
-    patreonLink = "https://patreon.com/#"
+    patreonLink = "https://www.patreon.com/SaharHeumesser"
 
 # SOCIAL NETWORKS
 
@@ -23,32 +23,24 @@ googleAnalytics = ""
     icon = "instagram"
     url = "https://www.instagram.com/saharheumesser/"
 [[params.social]]
+    title = "Pinterest"
+    icon = "pinterest"
+    url = "https://www.pinterest.at/saharHeumesser/"
+[[params.social]]
     title = "Twitter"
     icon = "twitter"
     url = "https://twitter.com/SaharHeumesser"
 [[params.social]]
     title = "Behance"
     icon = "behance"
-    url = "https://behance.com/#"
-[[params.social]]
-    title = "Pinterest"
-    icon = "pinterest"
-    url = "https://www.pinterest.at/saharHeumesser/"
-[[params.social]]
-    title = "Facebook"
-    icon = "facebook"
-    url = "https://facebook.com/#"
+    url = "https://www.behance.net/saharheume6b02"
 [[params.social]]
     title = "LinkedIn"
     icon = "linkedin"
-    url = "https://www.linkedin.com/in/#"
+    url = "https://www.linkedin.com/in/sahar-h-286a7474/"
 
 # SHOPS
 
-[[params.shops]]
-    title = "Spoonflower"
-    img = "spoonflower"
-    url = "https://spoonflower.com/#"
 [[params.shops]]
     title = "Etsy"
     img = "etsy"
@@ -56,7 +48,12 @@ googleAnalytics = ""
 [[params.shops]]
     title = "Creative Market"
     img = "creativemarket"
-    url = "https://creativemarket.com/#"
+    url = ""
+
+[[params.shops]]
+    title = "Spoonflower"
+    img = "spoonflower"
+    url = ""
 
 # BLOG
 paginate = 3

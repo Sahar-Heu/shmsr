@@ -13,8 +13,13 @@
                 {{ end }}
             {{ end }}
             <div class="overlay flex flex-col items-center justify-center">
-                <h1 class="text-grey-dark">{{ $shop.title }}</h1>
-                <a class="draw-border w-5/6 xl:w-3/4 block self-center px-8 py-3 my-4 mx-auto" href="{{ $shop.url }}" title="{{ $shop.title }}" target="_blank" rel="noopener">Visit my {{ $shop.title }} shop</a>
+                {{ with $shop.url }}
+                    <a class="link-overlay draw-border w-5/6 xl:w-3/4 block text-teal-dark hover:text-black tracking-wide text-xl no-underline self-center px-8 py-3 my-4 mx-auto" href="{{ $shop.url }}" title="{{ $shop.title }}" target="_blank" rel="noopener">
+                        Visit my {{ $shop.title }} shop
+                    </a>
+                {{ else }}
+                    <h1 class="roboto text-black tracking-wide">Coming soon...</h1>
+                {{ end }}
             </div>
         </div>
         {{ end }}

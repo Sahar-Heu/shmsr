@@ -6,17 +6,10 @@
 <section class="w-full flex flex-col justify-center text-center text-grey-light bg-fixed bg-no-repeat" style="background-image: url('{{ .Permalink }}');min-height:400px;">{{ end }}
     <h1 class="self-center text-white">This is the HOME page</h1>
 </section>
-<div class="w-full lg:w-1/2 flex flex-col flex-wrap self-center justify-center px-5">
-    <div class="w-full pt-10">
+<div class="w-full xl:w-1/2 flex flex-col flex-wrap self-center justify-center px-5">
+    <div class="w-full py-10">
         {{ with $intro }}
             {{ .Content }}
         {{ end }}
-        <h1 class="text-center">Contact me</h1>
-        <h2 class="text-center roboto">studio@sahar.design</h2>
-        <div class="w-3/4 h-px bg-teal mx-auto my-5"></div>
-        <h1 class="text-center">Follow me on Social Media</h1>
-    </div>
-    <div class="w-full sm:w-1/2 flex flex-row flex-no-wrap self-center justify-between pt-5 pb-10">
-        {{ partial "social-icons.html" . }}
     </div>
 </div>

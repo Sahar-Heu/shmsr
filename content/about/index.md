@@ -3,10 +3,10 @@ title: About
 type: about
 resources:
     - name: about-img
-      src: about.png
+      src: about.jpg
 ---
 
-Hello, I'm <span class="shallou text-4xl tracking-wide font-bold">Sahar</span>, 
+Hello, I'm <span class="shallou text-4xl text-teal tracking-wide font-bold">Sahar</span>, 
 
 a creative dreamer and freelance designer based in Vienna, Austria.
 
@@ -17,8 +17,6 @@ I have a neat, modern style offering a fresh, authentic approach to watercolor p
 The technical aspects of graphic design are just as important to me as the artistic ones, which is why I continuously learn, grow and sharpen my skills. Even though I’m usually fascinated by simplicity, I always keep an eye out for details in my designs.
 
 I am exceptionally well organized and I genuinely care for my clients and the projects taken on. 
-
-<div class="w-full h-px bg-teal mx-auto my-10"></div>
 
 If you would like to discuss a project, collaboration or simply say “hi”, please reach out to [studio@sahar.design](mailto:studio@sahar.design)
 
