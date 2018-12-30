@@ -1,15 +1,13 @@
-<header class="w-full flex flex-col py-3 sm:pb-0 fixed sm:relative bg-white shadow {{ if .IsHome }}{{ else }}sm:shadow-none{{ end }} pin-t pin-r pin-l" style="z-index:99;">
+<header class="w-full flex flex-col py-3 sm:pb-0 fixed sm:relative bg-white shadow sm:shadow-none pin-t pin-r pin-l" style="z-index:99;">
     <div class="flex-row justify-center">
         <img src="/img/logo.svg" width="400" class="hidden sm:block mx-auto my-20" alt="{{ .Site.Params.author }}" title="{{ .Site.Params.author }}">
     </div>
     <div id="spacer" class="w-full h-px"></div><!-- to add the height of the navbar once taken out of the DOM and made sticky -->
     <div class="hidden sm:block w-full h-px bg-teal mx-auto"></div>
     <nav id="site-menu" class="hidden sm:flex flex-row flex-wrap sm:flex-no-wrap w-full justify-center self-center text-lg lg:tracking-wide tracking-tight">
-        <a href="{{ .Site.BaseURL }}" title="Home" class="w-full sm:w-auto text-center text-grey-dark no-underline hover:bg-grey-light py-2 px-5">Home</a>
-        <a href="/about" title="About" class="w-full sm:w-auto text-center text-grey-dark no-underline hover:text-teal-dark hover:bg-grey-light py-2 px-5 {{ if eq .Title "About" }}text-teal{{ end }}">About</a>
-        <a href="/shop" title="Shop" class="w-full sm:w-auto text-center text-grey-dark no-underline hover:text-teal-dark hover:bg-grey-light py-2 px-5 {{ if eq .Title "Shop" }}text-teal{{ end }}">Shop</a>
-        <a href="/blog" title="Blog" class="w-full sm:w-auto text-center text-grey-dark no-underline hover:text-teal-dark hover:bg-grey-light py-2 px-5 {{ if eq .Title "Blog" }}text-teal{{ end }}">Blog</a>
-        <a href="/contact" title="Contact" class="w-full sm:w-auto text-center text-grey-dark no-underline hover:text-teal-dark hover:bg-grey-light py-2 px-5">Contact</a>
+        <a href="{{ .Site.BaseURL }}" title="About" class="w-full sm:w-auto text-center text-grey-dark no-underline hover:bg-grey-light py-2 px-10 {{ if .IsHome }}text-teal{{ end }}">About</a>
+        <a href="/shop" title="Shop" class="w-full sm:w-auto text-center text-grey-dark no-underline hover:text-teal-dark hover:bg-grey-light py-2 px-10 {{ if eq .Title "Shop" }}text-teal{{ end }}">Shop</a>
+        <a href="/contact" title="Contact" class="w-full sm:w-auto text-center text-grey-dark no-underline hover:text-teal-dark hover:bg-grey-light py-2 px-10 {{ if eq .Title "Contact" }}text-teal{{ end }}">Contact</a>
     </nav>
     <div class="flex flex-row justify-between">
         <a href="{{ .Site.BaseURL }}" title="Home">
@@ -19,8 +17,5 @@
             <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
         </button>
     </div>
-    {{ if .IsHome }}
-    {{ else }}
     <div class="hidden sm:block w-full h-px bg-teal mx-auto"></div>
-    {{ end }}
 </header>

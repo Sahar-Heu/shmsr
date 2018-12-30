@@ -5,9 +5,9 @@
         {{ partial "head.html" . }}
     {{ end }}
 </head>
-<body id="top" class="font-sans leading-normal text-grey-dark flex flex-col">
+<body id="top" class="text-grey-dark flex flex-col">
     {{ block "header" . }}
-        {{ partial "header.html" . }}
+        {{ partial "header-temp.html" . }}
     {{ end }}
     <main class="flex flex-col">
         {{ block "main" . }}

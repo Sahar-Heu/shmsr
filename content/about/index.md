@@ -1,6 +1,7 @@
 ---
 title: About
 type: about
+headless: true
 resources:
     - name: about-img
       src: about.jpg

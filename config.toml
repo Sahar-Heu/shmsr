@@ -1,10 +1,11 @@
 # SETUP
-baseurl = "https://shrwip.netlify.com"
+baseurl = "https://sahar.design"
 #publishdir = ""
 theme = ""
 DefaultContentLanguage = "en"
 canonifyUrls = "true"
 googleAnalytics = ""
+disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blog goes live
 
 [params]
     year = "2019"

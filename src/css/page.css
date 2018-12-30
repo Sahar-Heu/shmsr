@@ -120,8 +120,8 @@ h6 {
 .back-to-top {
     position: fixed;
     right: 25px;
-    bottom: 25px;
-    max-width: 125px;
+    bottom: 38px;
+    max-width: 100px;
     max-height: 0px;
     filter: drop-shadow(0 0 5px rgba(0,0,0,.15));
 }
@@ -134,9 +134,10 @@ h6 {
     max-height: 128.5px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
     .back-to-top {
-        max-width: 75px;
+        max-width: 65px;
+        bottom: 75px;
     }
 }
 

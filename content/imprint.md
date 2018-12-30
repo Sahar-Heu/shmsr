@@ -1,6 +1,6 @@
 ---
 title: Imprint
-description: Information according to §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung and imprint according to §25 Mediengesetz.
+description: Information according to §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung and imprint according to §25 Mediengesetz (Austria).
 ---
 
 ### Liability for the content of this website ###

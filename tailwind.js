@@ -814,7 +814,7 @@ module.exports = {
     pointerEvents: false,
     position: ['responsive'],
     resize: false,
-    shadows: false,
+    shadows: ['responsive'],
     svgFill: false,
     svgStroke: false,
     tableLayout: false,
