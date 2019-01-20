@@ -7,7 +7,7 @@ resources:
       src: about.jpg
 ---
 
-Hello, I'm <span class="shallou text-4xl text-teal tracking-wide font-bold">Sahar</span>, 
+## Hello, I'm Sahar, 
 
 a creative dreamer and freelance designer based in Vienna, Austria.
 

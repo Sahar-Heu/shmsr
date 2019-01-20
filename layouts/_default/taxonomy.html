@@ -1,10 +1,12 @@
 {{ define "main" }}
-<div class="w-full lg:w-5/6 xl:w-2/3 flex flex-row flex-no-wrap self-center justify-center mb-5">
-    <section class="w-full sm:w-2/3 flex flex-row flex-wrap flex-grow py-5">
-        <div class="w-full text-center">
-            <h1>Posts tagged "{{ .Title }}"</h1>
+<div class="w-full lg:w-5/6 xl:w-2/3 flex flex-row flex-no-wrap self-center justify-center">
+    <section class="w-full sm:w-2/3 flex flex-col flex-no-wrap pt-5 mt-10">
+        <div class="w-full">
+            <h1 class="md:px-5">Posts tagged "{{ .Title }}"</h1>
         </div>
-        {{ partial "blog/blogposts.html" . }}
+        <section class="w-full flex flex-row flex-wrap flex-grow">
+            {{ partial "blog/blogposts.html" . }}
+        </section>
     </section>
     {{ partial "blog/sidebar.html" . }}
     {{ partial "blog/pagination.html" . }}

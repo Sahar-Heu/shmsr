@@ -11,7 +11,7 @@
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
 <meta name="author" content="{{ .Site.Params.author }}">
 <meta name="robots" content="index,follow">
-{{ if eq .Type "post" }}
+{{ if eq .Type "blog" }}
 {{- with .Params.twitter -}}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@">
@@ -21,6 +21,7 @@
 <meta name="twitter:image" content="{{- $.Param "twitter.tw-image" -}}">
 {{- end -}}
 {{ end }}
+<meta name="p:domain_verify" content="35524c50ac8bb40bd39bb55d6d2c802a"/>
 <base href="{{ .Site.BaseURL }}">
 <title>{{ if .IsHome }}Home | {{ .Site.Params.author }}{{ else }}{{ .Title }} | {{ .Site.Params.author }}{{ end }}</title>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

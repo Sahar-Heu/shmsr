@@ -137,7 +137,8 @@ h6 {
 @media (max-width: 1023px) {
     .back-to-top {
         max-width: 65px;
-        bottom: 75px;
+        right: 15px;
+        bottom: 35px;
     }
 }
 

@@ -5,7 +5,7 @@ theme = ""
 DefaultContentLanguage = "en"
 canonifyUrls = "true"
 googleAnalytics = ""
-disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blog goes live
+# disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blog goes live
 
 [params]
     year = "2019"
@@ -50,7 +50,6 @@ disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blo
     title = "Creative Market"
     img = "creativemarket"
     url = ""
-
 [[params.shops]]
     title = "Spoonflower"
     img = "spoonflower"
@@ -61,7 +60,18 @@ paginate = 3
 paginatePath = "page"
 
 [permalinks] 
-posts = "post/:title/"
+blog = "blog/:title/"
+
+[related]
+threshold = 80
+includeNewer = "true"
+toLower = "false"
+[[related.indices]]
+    name = "tags"
+    weight = 100
+[[related.indices]]
+    name = "date"
+    weight = "20"
 
 [params.pagination] # for Bootstrap 4
     # These are all optional and default to true
