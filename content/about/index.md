@@ -9,7 +9,7 @@ resources:
 
 ## Hello, I'm Sahar, 
 
-a creative dreamer and freelance designer based in Vienna, Austria.
+a creative dreamer and freelance graphic designer based in Vienna, Austria.
 
 My specialties are bespoke design for print, digital and brand identity, although I also do styling for photoshoots and events occasionally.
 

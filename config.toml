@@ -1,20 +1,19 @@
 # SETUP
+# baseurl = "https://shrwip.netlify.com" 
 baseurl = "https://sahar.design"
-#publishdir = ""
-theme = ""
+publishdir = "public"
 DefaultContentLanguage = "en"
 canonifyUrls = "true"
 googleAnalytics = ""
-# disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blog goes live
+disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blog goes live
 
 [params]
     year = "2019"
     author = "Sahar Heumesser"
     title = "Sahar Heumesser | Graphic Designer"
-    description = "Sahar's Site Description"
+    description = "Sahar Heumesser, Graphic Designer"
     DateForm = "02. November 2006"
     showReadTime = 1
-    showProjects = "false"
     patreonLink = "https://www.patreon.com/SaharHeumesser"
 
 # SOCIAL NETWORKS
@@ -53,7 +52,7 @@ googleAnalytics = ""
 [[params.shops]]
     title = "Spoonflower"
     img = "spoonflower"
-    url = ""
+    url = "https://www.spoonflower.com/profiles/saharheumesser"
 
 # BLOG
 paginate = 3
