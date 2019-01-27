@@ -5,7 +5,7 @@
     }
 </style>
 {{ $image := .Resources.GetMatch "about-img" }}
-<div class="w-full xl:w-3/4 flex lg:flex-row flex-col-reverse flex-no-wrap self-center justify-start lg:px-3 py-8 lg:my-4">
+<div class="w-full xl:w-3/4 flex lg:flex-row flex-col-reverse flex-no-wrap self-center justify-start lg:px-3 py-8 lg:my-4 mb-12">
     {{ with $image }}
         <div class="w-full bg-cover bg-center bg-no-repeat flex-1 about-img" style="background-image:url('{{ $image.Permalink }}');"></div>
     {{ end }}

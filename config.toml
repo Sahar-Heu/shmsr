@@ -31,6 +31,10 @@ disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blo
     icon = "twitter"
     url = "https://twitter.com/SaharHeumesser"
 [[params.social]]
+    title = "Facebook"
+    icon = "facebook"
+    url = "https://www.facebook.com/Sahar-Heumesser-Design-Studio-818982218441880/"
+[[params.social]]
     title = "Behance"
     icon = "behance"
     url = "https://www.behance.net/saharheume6b02"
@@ -38,6 +42,10 @@ disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blo
     title = "LinkedIn"
     icon = "linkedin"
     url = "https://www.linkedin.com/in/sahar-h-286a7474/"
+[[params.social]]
+    title = "Dribble"
+    icon = "dribble"
+    url = "https://dribbble.com/Sahar-Heumesser"
 
 # SHOPS
 
@@ -46,13 +54,13 @@ disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blo
     img = "etsy"
     url = "https://www.etsy.com/shop/SaharHeumesser"
 [[params.shops]]
-    title = "Creative Market"
-    img = "creativemarket"
-    url = ""
-[[params.shops]]
     title = "Spoonflower"
     img = "spoonflower"
     url = "https://www.spoonflower.com/profiles/saharheumesser"
+[[params.shops]]
+    title = "Creative Market"
+    img = "creativemarket"
+    url = ""
 
 # BLOG
 paginate = 3
@@ -70,7 +78,7 @@ toLower = "false"
     weight = 100
 [[related.indices]]
     name = "date"
-    weight = "20"
+    weight = 20
 
 [params.pagination] # for Bootstrap 4
     # These are all optional and default to true

@@ -19,6 +19,6 @@ The technical aspects of graphic design are just as important to me as the artis
 
 I am exceptionally well organized and I genuinely care for my clients and the projects taken on. 
 
-If you would like to discuss a project, collaboration or simply say “hi”, please reach out to [studio@sahar.design](mailto:studio@sahar.design)
+If you would like to discuss a project, collaborate or simply say “hi”, please reach out to [studio@sahar.design](mailto:studio@sahar.design)
 
 Thanks for stopping by, enjoy browsing through my Portfolio or my [online shop](/shop)!

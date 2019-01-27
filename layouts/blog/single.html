@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $bImg := .Resources.GetMatch "blogImage" }}
-<div class="w-full xl:w-2/3 flex flex-col flex-no-wrap self-center justify-center">
+<div class="w-full xl:w-2/3 flex flex-col flex-no-wrap self-center justify-center mb-12">
     <div class="flex flex-row flex-no-wrap self-center justify-center">
         <article class="w-full xl:w-2/3 flex flex-col flex-no-wrap flex-grow py-5 mt-10 xl:pr-10">
             <div class="px-3 xl:px-0">
@@ -16,23 +16,7 @@
         </article>
         {{ partial "blog/sidebar.html" . }}
     </div>
-    <div class="w-full h-px bg-teal mx-auto my-4"></div>
-        <div class="flex flex-row justify-between items-center flex-no-wrap flex-grow px-3 xl:px-0">
-            <span>
-                {{ if .PrevInSection}}
-                <a href="{{ .PrevInSection.Permalink }}">&lt; PREV</a>
-                {{ end }}
-            </span>
-            <span>
-                <a href="/blog" class="hidden sm:block btn btn-primary self-center text-sm uppercase tracking-wide no-underline px-10 py-2">Back to Blog</a>
-            </span>
-            <span>
-                {{ if .NextInSection }}
-                <a href="{{ .NextInSection.Permalink }}">NEXT &gt;</a>
-                {{ end }}
-            </span>
-        </div>
-        <div class="w-full h-px bg-teal mx-auto my-4"></div>
+    {{ partial "blog/post-footer.html" . }}
     {{ partial "blog/related.html" . }}
 </div>
 {{ end }}
