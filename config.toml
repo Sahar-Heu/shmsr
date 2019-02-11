@@ -46,6 +46,7 @@ disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blo
     title = "Dribble"
     icon = "dribble"
     url = "https://dribbble.com/Sahar-Heumesser"
+# Bloglovin
 
 # SHOPS
 
