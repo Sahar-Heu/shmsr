@@ -42,13 +42,6 @@
             {{ .Content }}
         {{ end }}
     </div>
-    <form class="w-full flex flex-col" action="https://formspree.io/studio@sahar.design" method="POST">
-        <div class="flex flex-col md:flex-row justify-between items-center">
-            <input class="w-full md:w-1/2 p-3 m-0 mb-3 md:mr-3 border border-solid border-grey" type="text" name="Name" placeholder="Name">
-            <input class="w-full md:w-1/2 p-3 m-0 mb-3 md:ml-3 border border-solid border-grey" type="email" name="Email address" placeholder="E-Mail Address">
-        </div>
-        <textarea class="border border-solid border-grey p-3 mb-3" name="Message" rows="4" placeholder="Message" style="resize:none;"></textarea>
-        <button type="submit" class="w-full md:w-1/4 btn btn-primary no-underline px-5 py-3">Submit</button>
-    </form>
+    {{ partial "cform.html" . }}
 </div>
 {{ end }}
