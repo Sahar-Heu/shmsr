@@ -37,7 +37,7 @@ disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blo
 [[params.social]]
     title = "Behance"
     icon = "behance"
-    url = "https://www.behance.net/saharheume6b02"
+    url = "https://www.behance.net/saharheumesser"
 [[params.social]]
     title = "LinkedIn"
     icon = "linkedin"

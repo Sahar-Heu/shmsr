@@ -9,6 +9,13 @@
         <div class="w-full sm:w-1/2 lg:w-1/4 text-center my-4 sm:my-2">
             <div class="img-container ">
                 <img src="{{ .Permalink }}" class="w-full block mx-auto img-shop" title="{{ .Title }}">
+                <div class="overlay flex flex-col items-center justify-center">
+                    {{ with .Params.durl }}
+                        <a class="link-overlay draw-border w-5/6 xl:w-3/4 block text-teal-dark hover:text-black tracking-wide text-xl no-underline self-center px-8 py-3 my-4 mx-auto" href="{{ . }}" title="Details" target="_blank" rel="noopener">Details</a>
+                    {{ else }}
+                        <h1 class="roboto text-black tracking-wide">Coming soon...</h1>
+                    {{ end }}
+                </div>
             </div>
         </div>
         {{ end }}
