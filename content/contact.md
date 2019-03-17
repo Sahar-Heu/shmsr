@@ -3,6 +3,6 @@ title: Contact
 type: contact
 ---
 
-# Contact me
+# Contact Me
 
-If you would like to discuss a project, collaboration or simply say “hi”, please reach out to: 
+If you would like to discuss a project, collaboration or simply say “hi”, please reach out to:

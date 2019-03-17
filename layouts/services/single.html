@@ -1,0 +1,54 @@
+{{ define "main" }}
+{{ $headless := .Site.GetPage "/services" }}
+    {{ $identity := $headless.Resources.GetMatch (printf "*%s*" "brandidentity") }}
+    {{ $bservices := $headless.Resources.GetMatch (printf "*%s*" "brandingservices") }}
+    {{ $approach := $headless.Resources.GetMatch (printf "*%s*" "myapproach") }}
+    {{ $cta := $headless.Resources.GetMatch (printf "*%s*" "cta") }}
+    {{ $showcase := $headless.Resources.GetMatch "showcase-img" }}
+
+<div class="w-full xl:w-1/2 flex flex-col flex-no-wrap self-center justify-center px-3 mt-10 mb-12">
+    <div class="text-center mb-12">
+        <h3 class="roboto uppercase text-grey-dark">Brand Identity</h3>
+        {{ with $identity }}
+            {{ .Content }}
+        {{ end }}
+    </div>
+    <div class="flex flex-col lg:flex-row flex-no-wrap">
+        <div class="w-full lg:w-1/2 flex-1">
+            {{ with $showcase }}
+                <img src="{{ .Permalink }}" class="block w-full">
+            {{ end }}
+        </div>
+        <div class="w-full lg:w-1/2 flex-1 self-center justify-center bg-grey-light my-auto pl-12 py-3">
+            {{ with $bservices }}
+                <h1>Branding Services</h1>
+                {{ .Content }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+<section class="w-full flex flex-col justify-center text-center bg-grey-light mt-12" style="min-height:300px;">
+    <div class="w-full xl:w-2/3 mx-auto my-auto self-center justify-center px-3 py-12">
+        <h3 class="roboto uppercase text-grey-dark">My Approach</h3>
+        {{ with $approach }}
+            {{ .Content }}
+        {{ end }}
+    </div>
+</section>
+<div class="w-full xl:w-1/2 flex flex-col flex-no-wrap self-center justify-center px-3 my-12">
+    <div class="text-center mb-8">
+        <h1>Contact Me</h1>
+        {{ with $cta }}
+            {{ .Content }}
+        {{ end }}
+    </div>
+    <form class="w-full flex flex-col" action="https://formspree.io/studio@sahar.design" method="POST">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <input class="w-full md:w-1/2 p-3 m-0 mb-3 md:mr-3 border border-solid border-grey" type="text" name="Name" placeholder="Name">
+            <input class="w-full md:w-1/2 p-3 m-0 mb-3 md:ml-3 border border-solid border-grey" type="email" name="Email address" placeholder="E-Mail Address">
+        </div>
+        <textarea class="border border-solid border-grey p-3 mb-3" name="Message" rows="4" placeholder="Message" style="resize:none;"></textarea>
+        <button type="submit" class="w-full md:w-1/4 btn btn-primary no-underline px-5 py-3">Submit</button>
+    </form>
+</div>
+{{ end }}

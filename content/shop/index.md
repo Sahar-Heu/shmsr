@@ -1,6 +1,6 @@
 ---
 title: Shop
-description: Find my work in these shops
+description: Find my Work in these Shops
 type: shop
 resources:
     - name: spoonflower
@@ -11,4 +11,4 @@ resources:
       src: creativemarket.jpg
 ---
 
-# Find my work in these shops
+# Find my Work in these Shops

@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ $images := .Resources.Match "images/*" }}
+<div class="w-full xl:w-3/4 flex flex-col flex-no-wrap self-center justify-start lg:px-3 py-8 lg:my-4 mb-12">
+    <div class="w-full text-center mb-8">
+        {{ .Content }}
+    </div>
+    <div class="w-full flex flex-col sm:flex-row flex-wrap self-center justify-around">
+        {{ range $images }}
+        <div class="w-full sm:w-1/2 lg:w-1/4 text-center my-4 sm:my-2">
+            <div class="img-container ">
+                <img src="{{ .Permalink }}" class="w-full block mx-auto img-shop" title="{{ .Title }}">
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
