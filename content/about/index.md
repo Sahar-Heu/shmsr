@@ -21,4 +21,4 @@ I am exceptionally well organized and I genuinely care for my clients and the pr
 
 If you would like to discuss a project, collaborate or simply say “hi”, please reach out to [studio@sahar.design](mailto:studio@sahar.design)
 
-Thanks for stopping by, I hope you'll enjoy browsing through my [portfolio](/portfolio) or my [online shop](/shop)!
+Thanks for stopping by, I hope you'll enjoy browsing through my [portfolio](/portfolio) or my [online shops](/shop)!

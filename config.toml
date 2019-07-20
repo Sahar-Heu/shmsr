@@ -1,11 +1,11 @@
 # SETUP
-# baseurl = "https://shrwip.netlify.com"
-baseurl = "https://sahar.design"
+baseurl = "https://shrwip.netlify.com"
+# baseurl = "https://sahar.design"
 publishdir = "public"
 DefaultContentLanguage = "en"
 canonifyUrls = "true"
 googleAnalytics = ""
-disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blog goes live
+# disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blog goes live
 
 [params]
     year = "2019"
@@ -41,27 +41,12 @@ disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blo
 [[params.social]]
     title = "LinkedIn"
     icon = "linkedin"
-    url = "https://www.linkedin.com/in/sahar-h-286a7474/"
+    url = "https://www.linkedin.com/in/sahar-heumesser/"
 [[params.social]]
     title = "Dribble"
     icon = "dribble"
     url = "https://dribbble.com/Sahar-Heumesser"
 # Bloglovin
-
-# SHOPS
-
-[[params.shops]]
-    title = "Etsy"
-    img = "etsy"
-    url = "https://www.etsy.com/shop/SaharHeumesser"
-[[params.shops]]
-    title = "Spoonflower"
-    img = "spoonflower"
-    url = "https://www.spoonflower.com/profiles/saharheumesser"
-[[params.shops]]
-    title = "Creative Market"
-    img = "creativemarket"
-    url = ""
 
 # BLOG
 paginate = 3

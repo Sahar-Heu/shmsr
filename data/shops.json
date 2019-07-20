@@ -1,0 +1,17 @@
+[
+    {
+        "shopName":"Etsy",
+        "shopImage": "etsy.jpg",
+        "shopURL": "https://www.etsy.com/shop/SaharHeumesser"
+    },
+    {
+        "shopName":"Spoonflower",
+        "shopImage": "spoonflower.jpg",
+        "shopURL": "https://www.spoonflower.com/profiles/saharheumesser"
+    },
+    {
+        "shopName":"Creative Market",
+        "shopImage": "creativemarket.jpg",
+        "shopURL": ""
+    }
+]

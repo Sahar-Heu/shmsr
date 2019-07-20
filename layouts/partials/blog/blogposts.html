@@ -1,9 +1,8 @@
 {{ range .Pages }}
-{{ $bImg := .Resources.GetMatch "blogImage" }}
 <div class="w-full md:w-1/2 flex flex-col flex-wrap md:flex-no-wrap py-5 md:px-5 lg:pr-10">
     <div class="w-full">
         <a href="{{ .Permalink }}" title="{{ .Title }}">
-            <img src="{{ $bImg.RelPermalink }}" class="block w-full py-5 mb-5">
+            <img src="{{ range .Params.images | first 1 }}{{ . }}{{ end }}" class="block w-full py-5 mb-5" alt="{{ .Title }}" title="{{ .Title }}">
         </a>
     </div>
     <div class="w-full px-3 sm:px-0 text-center">

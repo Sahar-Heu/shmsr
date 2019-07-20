@@ -4,11 +4,10 @@
     <h1 class="text-center px-3 my-3">You May Also Like</h1>
     <div class="flex flex-col md:flex-row flex-grow flex-wrap justify-around">
         {{ range . }}
-        {{ $relImg := .Resources.GetMatch "blogImage" }}
         <div class="w-full md:w-1/4 xl:w-1/4 flex flex-col flex-no-wrap py-5 px-0 md:px-3">
             <div class="w-full">
                 <a href="{{ .Permalink }}" title="{{ .Title }}">
-                    <img src="{{ $relImg.RelPermalink }}" class="block w-full py-5 md:py-0 mb-5 md:mb-0">
+                    <img src="{{ range .Params.images | first 1 }}{{ . }}{{ end }}" class="block w-full py-5 md:py-0 mb-5 md:mb-0">
                 </a>
             </div>
             <div class="w-full text-center px-3 pt-5">

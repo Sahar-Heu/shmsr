@@ -1,6 +1,7 @@
 ---
 title: Contact
 type: contact
+layout: contact
 ---
 
 # Contact Me

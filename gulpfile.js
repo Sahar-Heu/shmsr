@@ -1,14 +1,13 @@
 var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     concatCss = require('gulp-concat-css'),
-    tailwindcss = require('tailwindcss'),
     cssnano = require('gulp-cssnano'),
     concat = require('gulp-concat');
 
-gulp.task('procss', function () {  
+gulp.task('procss', function () {
     return gulp.src('./src/css/page.css')
       .pipe(postcss([
-        tailwindcss('./tailwind.js'),
+        require('tailwindcss'),
         require('autoprefixer'),
       ]))
       .pipe(concatCss('page.css'))

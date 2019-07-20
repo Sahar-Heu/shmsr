@@ -1,2 +1,5 @@
 # Redirect default Netlify subdomain to primary domain
 https://shrdesign.netlify.com/* https://sahar.design/:splat 301!
+
+# temporary rule until portfolio is changed to post content
+/portfolio/* /portfolio/index.html 200!
