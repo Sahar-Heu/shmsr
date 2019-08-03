@@ -34,6 +34,12 @@ sections:
   label: Services
   create: all
   match: "**/*"
+- type: directory
+  path: data
+  label: Data
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".json"
 upload_dir: static/img/uploads
 public_path: "/img/uploads"
 front_matter_path: ''
