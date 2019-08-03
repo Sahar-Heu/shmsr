@@ -4,13 +4,16 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: pType
-  label: pType
+  label: Type
+  description: The kind of work, i.e. illustration
 - type: text
   name: pURL
-  label: pURL
+  label: Link
+  description: Link that this portfolio item should point to
 - type: image_gallery
   name: images
-  label: images
+  label: Image
+  description: Image to display for the portfolio item
