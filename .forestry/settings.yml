@@ -9,9 +9,9 @@ sections:
   label: Blog
   create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - blog-post
-  - blog-index
 - type: directory
   path: content/portfolio
   label: Portfolio
