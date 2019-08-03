@@ -4,19 +4,22 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Post title
+  description: Title of the blog post
 - type: text
   name: description
-  label: description
+  label: Post description
+  description: Intro text to display between post title and image
 - type: datetime
   name: date
-  label: date
+  label: Post date
 - type: number
   name: weight
-  label: weight
+  label: Post order
+  description: Increment by -1 for each new post
 - type: list
   name: tags
-  label: tags
+  label: Tags
 - type: image_gallery
   name: images
-  label: images
+  label: Post image
