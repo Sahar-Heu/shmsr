@@ -1,9 +1,10 @@
 ---
-label: Blog index
+label: Blog start
 hide_body: true
+display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 pages:
 - content/blog/_index.md
