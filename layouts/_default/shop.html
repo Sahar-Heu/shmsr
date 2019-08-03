@@ -11,11 +11,11 @@
             {{ end }}
             <div class="overlay flex flex-col items-center justify-center">
                 {{ with .shopURL }}
-                    <a class="link-overlay draw-border w-5/6 xl:w-3/4 block text-teal-dark hover:text-black tracking-wide text-xl no-underline self-center px-8 py-3 my-4 mx-auto" href="{{ . }}" title="{{ $shop.shopName }}" target="_blank" rel="noopener">
+                    <a class="link-overlay draw-border w-5/6 xl:w-3/4 block text-teal-dark hover:text-black tracking-wide no-underline self-center px-8 py-3 my-4 mx-auto" href="{{ . }}" title="{{ $shop.shopName }}" target="_blank" rel="noopener">
                         Visit my {{ $shop.shopName }} shop
                     </a>
                 {{ else }}
-                    <h1 class="roboto text-black tracking-wide">Coming soon...</h1>
+                    <span class="roboto text-black tracking-wide text-xl">Coming soon...</span>
                 {{ end }}
             </div>
         </div>
