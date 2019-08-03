@@ -1,0 +1,16 @@
+---
+label: Portfolio item
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: pType
+  label: pType
+- type: text
+  name: pURL
+  label: pURL
+- type: image_gallery
+  name: images
+  label: images
