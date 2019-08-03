@@ -17,6 +17,7 @@ sections:
   label: Portfolio
   create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - portfolio-item
 - type: directory
