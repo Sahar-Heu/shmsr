@@ -23,5 +23,3 @@ fields:
 - type: image_gallery
   name: images
   label: Post image
-pages:
-- content/blog/forests-are-great.md
