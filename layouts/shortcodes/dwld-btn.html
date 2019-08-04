@@ -1,4 +1,4 @@
-{{ $txt := .Get0 }}
-{{ $lnk := .Get1 }}
+{{ $txt := .Get 0 }}
+{{ $lnk := .Get 1 }}
 
-<a class="draw-border w-64 block self-center px-8 py-3 my-4 mx-auto" href="{{ $lnk }}" title="{{ $txt }}" target="_blank" rel="noopener">{{ $txt }}</a>
+<a class="draw-border w-64 block text-center no-underline hover:text-teal-dark self-center px-8 py-3 my-8 mx-auto" href="{{ $lnk }}" title="{{ $txt }}" target="_blank" rel="noopener">{{ $txt }}</a>
