@@ -17,3 +17,5 @@ fields:
   name: images
   label: Image
   description: Image to display for the portfolio item
+pages:
+- content/portfolio/psychotherapie-naschmark.md
