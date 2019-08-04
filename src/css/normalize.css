@@ -52,12 +52,12 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
 }
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 abbr[title],
@@ -100,6 +100,8 @@ dd {
 
 blockquote {
   margin: 0 0 1rem;
+  border-left: 3px solid #849995;
+  padding-left: 20px;
 }
 
 dfn {
