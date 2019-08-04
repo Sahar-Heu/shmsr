@@ -13,6 +13,16 @@ fields:
   name: pURL
   label: Link
   description: Link that this portfolio item should point to
+- name: weight
+  type: number
+  label: Order
+  description: Order, low to high, i.e. lower ones come first
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: image_gallery
   name: images
   label: Image
