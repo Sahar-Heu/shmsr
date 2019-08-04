@@ -34,9 +34,7 @@ This technique has saved a lot of time and effort for me as a designer as well a
 
 > You can become my Patron for $2 per month and get access to **all my digital freebies** [here](https://www.patreon.com/SaharHeumesser "Patreon").
 
-I have got my inspiration to design this booklet from one of my favorite graphic designers named [Gareth David](https://garethdavidstudio.com/ "Gareth David") whom I have learned a lot from over the last few years.
-
-So, I would like to dedicate this post to him.
+I have got my inspiration to design this booklet from one of my favorite graphic designers named **Gareth David** whom I have learned a lot from over the last few years. So, I would like to dedicate this post to [him](https://garethdavidstudio.com/ "Gareth David").
 
 Please note: all images, patterns and designs are © sahar.design
 
