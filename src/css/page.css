@@ -140,3 +140,10 @@ h6 {font-size: 1.15rem}
 .post ul {
     padding-inline-start: 40px;
 }
+
+.post hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #bbcdc9;
+}
