@@ -4,7 +4,6 @@
     {{ $bservices := $headless.Resources.GetMatch (printf "*%s*" "brandingservices") }}
     {{ $approach := $headless.Resources.GetMatch (printf "*%s*" "myapproach") }}
     {{ $cta := $headless.Resources.GetMatch (printf "*%s*" "cta") }}
-    {{ $showcase := $headless.Resources.GetMatch "showcase-img" }}
 
 <div class="w-full xl:w-1/2 flex flex-col flex-no-wrap self-center justify-center px-3 mt-10 mb-12">
     <div class="text-center mb-12">
@@ -15,9 +14,7 @@
     </div>
     <div class="flex flex-col lg:flex-row flex-no-wrap">
         <div class="w-full lg:w-1/2 flex-1">
-            {{ with $showcase }}
-                <img src="{{ .Permalink }}" class="block w-full">
-            {{ end }}
+            <img src="/img/uploads/Services-Showcase.jpg" class="block w-full" alt="Services Showcase">
         </div>
         <div class="w-full lg:w-1/2 flex-1 self-center justify-center bg-grey-light my-auto pl-12 py-3">
             {{ with $bservices }}

@@ -5,8 +5,6 @@ type: services
 resources:
     - name: brandidentity
       src: brandidentity.md
-    - name: showcase-img
-      src: showcase.jpg
     - name: brandingservices
       src: brandingservices.md
     - name: myapproach
