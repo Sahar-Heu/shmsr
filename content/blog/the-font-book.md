@@ -12,7 +12,18 @@ weight = -1
 
 As you may know I am a graphic designer which means I deal with fonts on a daily bases. Over the past few years, I have been realizing I spend an enormous amount of time in order to **pick the right font** for a project and as it seems I would go through the same hardship over and over again…
 
-Earlier this year I decided to find a more convenient way to **organize my fonts**. Not that I hadn’t any system before, it was just not working well. 
+Earlier this year I decided to find a more convenient way to **organize my fonts**. Not that I hadn’t any system before (believe me i am an organizing maniac), it was just not working well. 
+
+### The Font Book
+
+Basically you have a **template** in which each page is dedicated to one individual typeface and it presents following information:
+
+* The fonts Name
+* The font's category (serif, sans serif, script...)
+* The designer
+* The Font's Characters
+* A Preview Paragraph
+* Number of styles
 
 I know it may seem troublesome to put all the effort into preparing the file, even more so in this age of having a new typeface coming out every second, but remember, that this is a one-time effort for a lifetime of comfort especially if you are a **Graphic Designer!**
 
@@ -20,7 +31,7 @@ I know it may seem troublesome to put all the effort into preparing the file, ev
 
 My own font book is a combination of free fonts and the purchased ones. I have selected the typefaces in my own collection based on my personal style, my current client or my next design approach.
 
-I should mention that I declutter my collection quite often, otherwise it will sooner or later grow out of control. I suggest you do the same.
+I should mention that I **declutter** my collection quite often, otherwise it will sooner or later grow out of control. I strongly suggest you do the same!
 
 Once that you have the basic file prepared then whenever you have new fonts to add, you can easily print the new pages and add it to the collection or once in a while discard a font that you probably are not going to use it anytime soon.
 
