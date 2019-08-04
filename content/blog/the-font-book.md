@@ -40,6 +40,6 @@ Please note: all images, patterns and designs are © sahar.design
 
 You may not reproduce, re-create, share or sell in any way, but please feel free to download for your own personal use. If you share on your own blog (I'd be delighted!) please direct your readers to this post to download the file.
 
-{{< dwld-btn "Download now" "https://link-to-your/file" >}}
+{{< dwld-btn "Download" "[https://www.dropbox.com/sh/47b4vzfntbcedvp/AAB7JZ4VYTuXsJibxKx6Snq9a?dl=0](https://www.dropbox.com/sh/47b4vzfntbcedvp/AAB7JZ4VYTuXsJibxKx6Snq9a?dl=0 "https://www.dropbox.com/sh/47b4vzfntbcedvp/AAB7JZ4VYTuXsJibxKx6Snq9a?dl=0")" >}}
 
 Thank you!
