@@ -12,7 +12,7 @@ weight = -1
 
 As you may know I am a graphic designer which means I deal with fonts on a daily bases. Over the past few years, I have been realizing I spend an enormous amount of time in order to **pick the right font** for a project and as it seems I would go through the same hardship over and over again…
 
-Earlier this year I decided to find a more convenient way to **organize my fonts**. Not that I didn’t have any system before (believe me i am an organizing maniac), it was just not working well. 
+Earlier this year I decided to find a more convenient way to **organize my fonts**. Not that I didn’t have any system before (believe me i am an organizing maniac), it was just not working well.
 
 ### The Font Book
 
@@ -24,6 +24,8 @@ Basically you have a **template** in which each page is dedicated to one individ
 4. The Font's Characters
 5. A Preview Paragraph
 6. Number of styles
+
+![](/img/uploads/B0001-ThefontBook-Guide-B-01.png)
 
 I know it may seem troublesome to put all the effort into preparing the file, even more so in this age of having a new typeface coming out every second, but remember, that this is a one-time effort for a lifetime of comfort especially if you are a **Graphic Designer!**
 
