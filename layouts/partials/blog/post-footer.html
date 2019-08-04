@@ -1,7 +1,7 @@
 <div class="w-full h-px bg-teal mx-auto my-4"></div>
 <div class="flex flex-col md:flex-row justify-between items-start md:items-center flex-no-wrap flex-grow px-3 xl:px-0">
     <div class="">
-        <h3 class="inline-block roboto pr-4 my-0">Share this post:</h3>
+        <h6 class="inline-block roboto pr-4 my-0">Share this post:</h6>
         <a href="https://twitter.com/intent/tweet?text={{ .Params.title }}&amp;url={{ .Permalink| absURL }}" title="Share on Twitter" rel="noopener" target="_blank"><img class="inline-block w-8 hover:opacity-50 transition" src="/img/blog/twitter.svg"></a>
         <a href="https://pinterest.com/pin/create/button/?url={{ range .Params.images | first 1 }}{{ . }}{{ end }}&media={{ .Params.title }}&description={{ .Params.description }}" title="Share on Pinterest" rel="noopener" target="_blank"><img class="inline-block w-8 hover:opacity-50 transition" src="/img/blog/pinterest.svg"></a>
         <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink| absURL }}&amp;title={{ .Params.title }}" title="Share on LinkedIn" rel="noopener" target="_blank"><img class="inline-block w-8 hover:opacity-50 transition" src="/img/blog/linkedin.svg"></a>
@@ -9,7 +9,7 @@
         <a href="mailto:?subject={{ .Params.title }}&amp;body={{ .Permalink| absURL  }}" title="Send as Email" data-proofer-ignore=""><img class="inline-block w-8 hover:opacity-50 transition" src="/img/blog/email.svg"></a>
     </div>
     <div class="">
-        <h3 class="inline-block roboto pr-4 my-0">Tags:</h3>
+        <h6 class="inline-block roboto pr-4 my-0">Tags:</h6>
     {{range $tag := .Params.tags }}
         <a href="/tags/{{ urlize . }}" class="no-underline text-black bg-grey-light hover:bg-grey-dark hover:text-grey-light px-2 py-1" style="border-radius:2px;">{{ $tag }}</a>
     {{ end }}
