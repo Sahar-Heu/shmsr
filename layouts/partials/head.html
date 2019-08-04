@@ -11,16 +11,8 @@
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
 <meta name="author" content="{{ .Site.Params.author }}">
 <meta name="robots" content="index,follow">
-{{ if eq .Type "blog" }}
-{{- with .Params.twitter -}}
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@">
-<meta name="twitter:creator" content="@">
-<meta name="twitter:title" content="{{- $.Param "twitter.tw-title" -}}">
-<meta name="twitter:description" content="{{- $.Param "twitter.tw-description" -}}">
-<meta name="twitter:image" content="{{- $.Param "twitter.tw-image" -}}">
-{{- end -}}
-{{ end }}
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
 <!-- VERIFICATION TAGS -->
 <meta name="p:domain_verify" content="35524c50ac8bb40bd39bb55d6d2c802a"/>
 <meta name="google-site-verification" content="NZa7dcp6Zf2gl_ISu_qUidIZJd7g9zxR0XNJa5IwzFc" />

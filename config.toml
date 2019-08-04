@@ -28,6 +28,7 @@ googleAnalytics = ""
     description = "Sahar Heumesser, Graphic Designer"
     showReadTime = 1
     patreonLink = "https://www.patreon.com/SaharHeumesser"
+    images = ["/img/uploads/_Blog-Profile.png"]
 
 # SOCIAL NETWORKS
 
