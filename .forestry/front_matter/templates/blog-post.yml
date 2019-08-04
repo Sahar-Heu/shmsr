@@ -23,3 +23,5 @@ fields:
 - type: image_gallery
   name: images
   label: Post image
+pages:
+- content/blog/the-font-book.md
