@@ -16,7 +16,7 @@
             {{ end }}
         </p>
         <h2 class="text-black text-4xl">{{ .Title }}</h2>
-        <p class="text-grey-dark text-xs text-teal-dark uppercase">{{ dateFormat (.Site.Params.DateForm | default "Mon, 2 Jan 2006") .Date }}</p>
+        <p class="text-grey-dark text-xs text-teal-dark uppercase">{{ dateFormat ("2. Jan. 2006") .Date }}</p>
         <p class="text-left text-sm tracking-wide">{{ .Summary }}</p>
         <a href="{{ .Permalink }}" class="btn btn-primary self-center text-sm uppercase tracking-wide no-underline px-10 py-2 mb-3">Continue reading</a>
     </div>

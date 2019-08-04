@@ -7,12 +7,25 @@ canonifyUrls = "true"
 googleAnalytics = ""
 # disableKinds = ["RSS","taxonomy","taxonomyTerm","sitemap"] #remove this when blog goes live
 
+[outputs]
+    home = ["HTML","RSS"]
+    section  = ["HTML"]
+
+[outputFormats]
+    [outputFormats.RSS]
+        mediatype = "application/rss"
+        baseName = "feed"
+
+# for RSS feed
+[author]
+    name = "Sahar Heumesser"
+    email = "studio@sahar.design"
+
 [params]
     year = "2019"
     author = "Sahar Heumesser"
     title = "Sahar Heumesser | Graphic Designer"
     description = "Sahar Heumesser, Graphic Designer"
-    DateForm = "02. November 2006"
     showReadTime = 1
     patreonLink = "https://www.patreon.com/SaharHeumesser"
 
