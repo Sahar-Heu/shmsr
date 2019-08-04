@@ -1,6 +1,6 @@
 # SETUP
-baseurl = "https://shrwip.netlify.com"
-# baseurl = "https://sahar.design"
+#baseurl = "https://shrwip.netlify.com"
+baseurl = "https://sahar.design"
 publishdir = "public"
 DefaultContentLanguage = "en"
 canonifyUrls = "true"
