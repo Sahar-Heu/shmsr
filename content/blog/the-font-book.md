@@ -25,9 +25,13 @@ Basically you have a **template** in which each page is dedicated to one individ
 5. A Preview Paragraph
 6. Number of styles
 
-   ![](/img/uploads/B0001-ThefontBook-Guide-T-01.png)
+***
 
-I know it may seem troublesome to put all the effort into preparing the file, even more so in this age of having a new typeface coming out every second, but remember, that this is a one-time effort for a lifetime of comfort especially if you are a **Graphic Designer!**
+![](/img/uploads/B0001-ThefontBook-Guide-T-01.png)
+
+***
+
+ know it may seem troublesome to put all the effort into preparing the file, even more so in this age of having a new typeface coming out every second, but remember, that this is a one-time effort for a lifetime of comfort especially if you are a **Graphic Designer!**
 
 > Just be careful not getting overwhelmed by the volume of the typefaces that are out there, you do not need to print everything just your commonly used ones or better say the preferable ones.
 
