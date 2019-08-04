@@ -3,9 +3,9 @@
     <div class="w-full text-center mb-8">
         {{ .Content }}
     </div>
-    <div class="w-full flex flex-col sm:flex-row flex-wrap lg:flex-no-wrap self-center justify-around">
+    <div class="w-full flex flex-col sm:flex-row flex-wrap lg:flex-no-wrap self-center justify-center">
         {{ range $shop := .Site.Data.shops }}
-        <div class="img-container w-full sm:w-2/5 lg:w-1/4 text-center my-4 sm:my-2 m-3">
+        <div class="img-container w-full sm:w-2/5 lg:w-1/4 text-center sm:my-2 m-4">
             {{ with .shopImage }}
                 <img src="img/uploads/{{ . }}" class="w-full block mx-auto img-shop" title="{{ $shop.shopName }}" alt="{{ $shop.shopName }}">
             {{ end }}

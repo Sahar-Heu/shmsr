@@ -4,5 +4,5 @@ pType: Pattern Design
 pURL: https://www.behance.net/gallery/76934535/Bohemian-Paradise-Pattern-Collection
 weight: 2
 images:
-    - img/uploads/pattern.jpg
+    - img/uploads/PF-02-pattern.jpg
 ---
