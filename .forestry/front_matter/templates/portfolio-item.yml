@@ -23,6 +23,8 @@ fields:
     min: 
     max: 
     step: 
+    required: false
+  hidden: false
 - type: image_gallery
   name: images
   label: Image
