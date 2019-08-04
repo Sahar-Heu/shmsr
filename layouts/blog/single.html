@@ -9,7 +9,7 @@
                 {{ end }}
             </div>
             <img src="{{ range .Params.images | first 1 }}{{ . }}{{ end }}" class="block mx-auto my-8" alt="{{ .Title }}" title="{{ .Title }}">
-            <div class="px-3 xl:px-0">
+            <div class="post px-3 xl:px-0">
                 {{ .Content }}
             </div>
         </article>

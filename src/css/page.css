@@ -127,3 +127,16 @@ h6 {font-size: 1.15rem}
     opacity: 1;
     transition: all 0.5s ease-in-out;
 }
+
+.post ol {
+    list-style: decimal;
+}
+
+.post ul {
+    list-style: disc;
+}
+
+.post ol,
+.post ul {
+    padding-inline-start: 40px;
+}
