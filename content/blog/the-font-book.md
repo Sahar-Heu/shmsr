@@ -33,15 +33,15 @@ Basically you have a **template** in which each page is dedicated to one individ
 
 ### How it works?
 
-I personally print out every page and keep them individually in a cover otherwise they will be quite worn out in no time. Then I keep them all in a folder sorted by categories. In this way for each client or project I pick the candidates out to narrow down the choices and start to punting them next to each other to compare and find the best match(s).
+I personally print out every page and keep them individually in a cover otherwise they will be quite worn out in no time. Then I keep them all in a folder sorted by categories. In this way for each client or project I pick the candidates out to narrow down the choices and start to punting them next to each other to compare and find the best match(s). 
 
 I know it may seem troublesome to put all the effort into preparing the file, even more so in this age of having a new typeface coming out every second, but remember, that this is a one-time effort for a lifetime of comfort especially if you are a **Graphic Designer!**
 
-> Just be careful not getting overwhelmed by the volume of the typefaces that are out there, you do not need to print everything just your commonly used ones or better say the preferable ones.
+> **Just be careful not getting overwhelmed by the volume of the typefaces that are out there, you do not need to print everything just your commonly used ones or better say the preferable ones.**
 
 My own font book is a combination of free fonts and the purchased ones. I have selected the typefaces in my own collection based on my personal style, my current client or my next design approach.
 
-I should mention that I **declutter** my collection quite often, otherwise it will sooner or later grow out of control. I strongly suggest you do the same!
+I should mention that **I declutter my collection quite often**, otherwise it will sooner or later grow out of control. I strongly suggest you do the same!
 
 Once that you have the basic file prepared then whenever you have new fonts to add, you can easily print the new pages and add it to the collection or once in a while discard a font that you probably are not going to use it anytime soon.
 
@@ -50,10 +50,10 @@ This technique has saved a lot of time and effort for me as a designer as well a
 ### In this post I am sharing with you:
 
 1. A PDF of my personal selection of Google Fonts as an example. (This is free for everyone to use and share).
-2. The InDesign template so you can make your own font book. (This is also free for everyone to use and share).
+2. The InDesign template so you can make your own font book based on YOUR collection. (This is also free for everyone to use and share).
 3. The InDesign file of my Google Fonts (the open file of the PDF) so you can edit and add the fonts and make your own font book. (This is free only for my Patrons).
 
-> You can become my Patron for $2 per month and get access to **all my digital freebies** [here](https://www.patreon.com/SaharHeumesser "Patreon").
+> You can become my Patron for $2 per month and get access to **all my past and future digital freebies** [here](https://www.patreon.com/SaharHeumesser "Patreon").
 
 I have got my inspiration to design this booklet from one of my favorite graphic designers named **Gareth David** whom I have learned a lot from over the last few years. So, I would like to dedicate this post to [him](https://garethdavidstudio.com/ "Gareth David").
 
