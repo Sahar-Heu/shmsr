@@ -31,7 +31,11 @@ Basically you have a **template** in which each page is dedicated to one individ
 
 ***
 
- know it may seem troublesome to put all the effort into preparing the file, even more so in this age of having a new typeface coming out every second, but remember, that this is a one-time effort for a lifetime of comfort especially if you are a **Graphic Designer!**
+### How it works?
+
+I personally print out every page and keep them individually in a cover otherwise they will be quite worn out in no time. Then I keep them all in a folder sorted by categories. In this way for each client or project I pick the candidates out to narrow down the choices and start to punting them next to each other to compare and find the best match(s).
+
+I know it may seem troublesome to put all the effort into preparing the file, even more so in this age of having a new typeface coming out every second, but remember, that this is a one-time effort for a lifetime of comfort especially if you are a **Graphic Designer!**
 
 > Just be careful not getting overwhelmed by the volume of the typefaces that are out there, you do not need to print everything just your commonly used ones or better say the preferable ones.
 
