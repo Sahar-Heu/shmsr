@@ -1,16 +1,16 @@
 <footer class="w-full flex flex-col flex-no-wrap justify-center bg-grey-light">
     <div id="footer-menu" class="w-full lg:w-3/4 xl:w-1/2 flex flex-col lg:flex-row flex-wrap lg:flex-no-wrap justify-center self-center py-4">
         <div class="text-center flex-1 pt-4">
-            <h2 class="text-teal">Contact me</h2>
-            <h3 class="roboto mt-4">
+            <h4 class="text-teal">Contact me</h4>
+            <h5 class="roboto mt-4">
                 <a class="no-underline tracking-wide" href="mailto:studio@sahar.design">studio@sahar.design</a>
-            </h3>
+            </h5>
         </div>
         <div class="hidden lg:block flex-1 px-24 pt-2">
             <img src="/img/footer-logo.png" class="block h-32 mx-auto">
         </div>
         <div class="text-center flex-1 pt-4">
-            <h2 class="text-teal">Follow me</h2>
+            <h4 class="text-teal">Follow me</h4>
             <div class="w-full flex flex-row flex-no-wrap self-center justify-center lg:justify-between px-16 lg:px-0 my-4">
                 {{ partial "social-icons.html" . }}
             </div>
@@ -21,7 +21,7 @@
     </div>
 </footer>
 <div class="">
-    <a href="{{ .Permalink }}#top" title="Back to Top">
+    <a href="#top" title="Back to Top">
         <img id="btt" src="/img/btt.svg" class="back-to-top">
     </a>
 </div>

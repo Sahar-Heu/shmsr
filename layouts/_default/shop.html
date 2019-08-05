@@ -7,7 +7,7 @@
         {{ range $shop := .Site.Data.shops }}
         <div class="img-container w-full sm:w-2/5 lg:w-1/4 text-center sm:my-2 m-4">
             {{ with .shopImage }}
-                <img src="img/uploads/{{ . }}" class="w-full block mx-auto img-shop" title="{{ $shop.shopName }}" alt="{{ $shop.shopName }}">
+                <img src="/img/uploads/{{ . }}" class="w-full block mx-auto img-shop" title="{{ $shop.shopName }}" alt="{{ $shop.shopName }}">
             {{ end }}
             <div class="overlay flex flex-col items-center justify-center">
                 {{ with .shopURL }}
