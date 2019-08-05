@@ -1,7 +1,7 @@
 +++
 date = "2019-08-04T00:00:00+02:00"
 description = "A handy tool for graphic designers"
-images = ["/img/uploads/B0001-ThefontBook-Cover.png"]
+images = ["/img/uploads/B0001-ThefontBook-Cover.jpg"]
 tags = ["Graphic Design", "InDesign", "Template"]
 title = "The FONT Book"
 weight = -1
