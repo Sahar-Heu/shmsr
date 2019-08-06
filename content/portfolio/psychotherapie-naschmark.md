@@ -1,9 +1,8 @@
 +++
-draft = true
-images = []
+images = ["/img/uploads/P-01-Psyc-Nasch-Cover.png"]
 pType = "Visual Identity"
 pURL = ""
-weight = "4"
 title = "Psychotherapie Naschmark"
+weight = 1
 
 +++
