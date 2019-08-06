@@ -1,4 +1,6 @@
-Repository for Sahar's site
+Repository for https://sahar.design
+
+Built with Hugo, managed via forestry.io and deployed via Netlify.
 
 ## Status
 
